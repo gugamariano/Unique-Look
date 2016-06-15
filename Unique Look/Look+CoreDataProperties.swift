@@ -1,0 +1,28 @@
+//
+//  Look+CoreDataProperties.swift
+//  Unique Look
+//
+//  Created by antonio silva on 5/24/16.
+//  Copyright © 2016 antonio silva. All rights reserved.
+//
+//  Choose "Create NSManagedObject Subclass…" from the Core Data editor menu
+//  to delete and recreate this implementation file for your updated model.
+//
+
+import Foundation
+import CoreData
+
+extension Look {
+
+    @NSManaged var id: String?
+    @NSManaged var creationDate: NSNumber?
+    @NSManaged var lastUpdate: NSNumber?
+    @NSManaged var dayOfWeek: NSNumber?
+    @NSManaged var key: String?
+    @NSManaged var tags: NSSet?
+    @NSManaged var url: String?
+    @NSManaged var thumbUrl: String?
+    @NSManaged var user: User?
+
+    
+}
