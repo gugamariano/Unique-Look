@@ -1,0 +1,476 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AppDelegate"
+provides-nominal:
+- "C11Unique_Look11AppDelegate"
+provides-member:
+- ["C11Unique_Look11AppDelegate", ""]
+provides-dynamic-lookup:
+- "application"
+- "application"
+- "applicationDidEnterBackground"
+- "applicationWillEnterForeground"
+- "window"
+- "applicationDidBecomeActive"
+- "applicationWillTerminate"
+- "loggedUser"
+- "applicationWillResignActive"
+depends-top-level:
+- "UIResponder"
+- !private "FIRDatabase"
+- "AppDelegate"
+- "Bool"
+- "NSObject"
+- !private "CoreDataStackManager"
+- !private "FBSDKApplicationDelegate"
+- "User"
+- "AnyObject"
+- !private "BooleanLiteralType"
+- "UIApplication"
+- !private "FIRApp"
+- "String"
+- !private "FBSDKAppEvents"
+- "UIWindow"
+- "UIApplicationDelegate"
+- "NSURL"
+depends-member:
+- !private ["Ps9AnyObject", "CoreDataStackManager"]
+- !private ["Ps9AnyObject", "FBSDKAppEvents"]
+- !private ["Ps9AnyObject", "FBSDKApplicationDelegate"]
+- !private ["Ps9AnyObject", "FIRApp"]
+- !private ["Ps9AnyObject", "FIRDatabase"]
+- !private ["Ps9AnyObject", "activateApp"]
+- ["Ps9AnyObject", "application"]
+- ["Ps9AnyObject", "applicationDidBecomeActive"]
+- ["Ps9AnyObject", "applicationDidEnterBackground"]
+- ["Ps9AnyObject", "applicationDidFinishLaunching"]
+- ["Ps9AnyObject", "applicationDidReceiveMemoryWarning"]
+- ["Ps9AnyObject", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps9AnyObject", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps9AnyObject", "applicationShouldRequestHealthAuthorization"]
+- ["Ps9AnyObject", "applicationSignificantTimeChange"]
+- ["Ps9AnyObject", "applicationWillEnterForeground"]
+- ["Ps9AnyObject", "applicationWillResignActive"]
+- ["Ps9AnyObject", "applicationWillTerminate"]
+- !private ["Ps9AnyObject", "configure"]
+- !private ["Ps9AnyObject", "database"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "loggedUser"]
+- !private ["Ps9AnyObject", "persistenceEnabled"]
+- !private ["Ps9AnyObject", "saveContext"]
+- !private ["Ps9AnyObject", "sharedInstance"]
+- ["Ps9AnyObject", "window"]
+- ["Ps9AnyObject", ""]
+- ["C11Unique_Look11AppDelegate", "AnyObject"]
+- ["C11Unique_Look11AppDelegate", "Bool"]
+- !private ["C11Unique_Look11AppDelegate", "CoreDataStackManager"]
+- !private ["C11Unique_Look11AppDelegate", "FBSDKAppEvents"]
+- !private ["C11Unique_Look11AppDelegate", "FBSDKApplicationDelegate"]
+- !private ["C11Unique_Look11AppDelegate", "FIRApp"]
+- !private ["C11Unique_Look11AppDelegate", "FIRDatabase"]
+- ["C11Unique_Look11AppDelegate", "NSObject"]
+- ["C11Unique_Look11AppDelegate", "NSURL"]
+- ["C11Unique_Look11AppDelegate", "String"]
+- ["C11Unique_Look11AppDelegate", "UIApplication"]
+- ["C11Unique_Look11AppDelegate", "UIWindow"]
+- ["C11Unique_Look11AppDelegate", "User"]
+- ["C11Unique_Look11AppDelegate", "application"]
+- ["C11Unique_Look11AppDelegate", "applicationDidBecomeActive"]
+- ["C11Unique_Look11AppDelegate", "applicationDidEnterBackground"]
+- ["C11Unique_Look11AppDelegate", "applicationDidFinishLaunching"]
+- ["C11Unique_Look11AppDelegate", "applicationDidReceiveMemoryWarning"]
+- ["C11Unique_Look11AppDelegate", "applicationProtectedDataDidBecomeAvailable"]
+- ["C11Unique_Look11AppDelegate", "applicationProtectedDataWillBecomeUnavailable"]
+- ["C11Unique_Look11AppDelegate", "applicationShouldRequestHealthAuthorization"]
+- ["C11Unique_Look11AppDelegate", "applicationSignificantTimeChange"]
+- ["C11Unique_Look11AppDelegate", "applicationWillEnterForeground"]
+- ["C11Unique_Look11AppDelegate", "applicationWillResignActive"]
+- ["C11Unique_Look11AppDelegate", "applicationWillTerminate"]
+- ["C11Unique_Look11AppDelegate", "deinit"]
+- ["C11Unique_Look11AppDelegate", "init"]
+- ["C11Unique_Look11AppDelegate", "loggedUser"]
+- ["C11Unique_Look11AppDelegate", "window"]
+- !private ["Ps11CVarArgType", "CoreDataStackManager"]
+- !private ["Ps11CVarArgType", "FBSDKAppEvents"]
+- !private ["Ps11CVarArgType", "FBSDKApplicationDelegate"]
+- !private ["Ps11CVarArgType", "FIRApp"]
+- !private ["Ps11CVarArgType", "FIRDatabase"]
+- !private ["Ps11CVarArgType", "activateApp"]
+- ["Ps11CVarArgType", "application"]
+- ["Ps11CVarArgType", "applicationDidBecomeActive"]
+- ["Ps11CVarArgType", "applicationDidEnterBackground"]
+- ["Ps11CVarArgType", "applicationDidFinishLaunching"]
+- ["Ps11CVarArgType", "applicationDidReceiveMemoryWarning"]
+- ["Ps11CVarArgType", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps11CVarArgType", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps11CVarArgType", "applicationShouldRequestHealthAuthorization"]
+- ["Ps11CVarArgType", "applicationSignificantTimeChange"]
+- ["Ps11CVarArgType", "applicationWillEnterForeground"]
+- ["Ps11CVarArgType", "applicationWillResignActive"]
+- ["Ps11CVarArgType", "applicationWillTerminate"]
+- !private ["Ps11CVarArgType", "configure"]
+- !private ["Ps11CVarArgType", "database"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "loggedUser"]
+- !private ["Ps11CVarArgType", "persistenceEnabled"]
+- !private ["Ps11CVarArgType", "sharedInstance"]
+- ["Ps11CVarArgType", "window"]
+- ["Ps11CVarArgType", ""]
+- !private ["C11Unique_Look20CoreDataStackManager", "saveContext"]
+- !private ["C11Unique_Look20CoreDataStackManager", "sharedInstance"]
+- !private ["Ps28CustomDebugStringConvertible", "CoreDataStackManager"]
+- !private ["Ps28CustomDebugStringConvertible", "FBSDKAppEvents"]
+- !private ["Ps28CustomDebugStringConvertible", "FBSDKApplicationDelegate"]
+- !private ["Ps28CustomDebugStringConvertible", "FIRApp"]
+- !private ["Ps28CustomDebugStringConvertible", "FIRDatabase"]
+- !private ["Ps28CustomDebugStringConvertible", "activateApp"]
+- ["Ps28CustomDebugStringConvertible", "application"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidBecomeActive"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidEnterBackground"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidFinishLaunching"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidReceiveMemoryWarning"]
+- ["Ps28CustomDebugStringConvertible", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps28CustomDebugStringConvertible", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps28CustomDebugStringConvertible", "applicationShouldRequestHealthAuthorization"]
+- ["Ps28CustomDebugStringConvertible", "applicationSignificantTimeChange"]
+- ["Ps28CustomDebugStringConvertible", "applicationWillEnterForeground"]
+- ["Ps28CustomDebugStringConvertible", "applicationWillResignActive"]
+- ["Ps28CustomDebugStringConvertible", "applicationWillTerminate"]
+- !private ["Ps28CustomDebugStringConvertible", "configure"]
+- !private ["Ps28CustomDebugStringConvertible", "database"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "loggedUser"]
+- !private ["Ps28CustomDebugStringConvertible", "persistenceEnabled"]
+- !private ["Ps28CustomDebugStringConvertible", "sharedInstance"]
+- ["Ps28CustomDebugStringConvertible", "window"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "CoreDataStackManager"]
+- !private ["Ps23CustomStringConvertible", "FBSDKAppEvents"]
+- !private ["Ps23CustomStringConvertible", "FBSDKApplicationDelegate"]
+- !private ["Ps23CustomStringConvertible", "FIRApp"]
+- !private ["Ps23CustomStringConvertible", "FIRDatabase"]
+- !private ["Ps23CustomStringConvertible", "activateApp"]
+- ["Ps23CustomStringConvertible", "application"]
+- ["Ps23CustomStringConvertible", "applicationDidBecomeActive"]
+- ["Ps23CustomStringConvertible", "applicationDidEnterBackground"]
+- ["Ps23CustomStringConvertible", "applicationDidFinishLaunching"]
+- ["Ps23CustomStringConvertible", "applicationDidReceiveMemoryWarning"]
+- ["Ps23CustomStringConvertible", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps23CustomStringConvertible", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps23CustomStringConvertible", "applicationShouldRequestHealthAuthorization"]
+- ["Ps23CustomStringConvertible", "applicationSignificantTimeChange"]
+- ["Ps23CustomStringConvertible", "applicationWillEnterForeground"]
+- ["Ps23CustomStringConvertible", "applicationWillResignActive"]
+- ["Ps23CustomStringConvertible", "applicationWillTerminate"]
+- !private ["Ps23CustomStringConvertible", "configure"]
+- !private ["Ps23CustomStringConvertible", "database"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "loggedUser"]
+- !private ["Ps23CustomStringConvertible", "persistenceEnabled"]
+- !private ["Ps23CustomStringConvertible", "sharedInstance"]
+- ["Ps23CustomStringConvertible", "window"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "CoreDataStackManager"]
+- !private ["Ps9Equatable", "FBSDKAppEvents"]
+- !private ["Ps9Equatable", "FBSDKApplicationDelegate"]
+- !private ["Ps9Equatable", "FIRApp"]
+- !private ["Ps9Equatable", "FIRDatabase"]
+- !private ["Ps9Equatable", "activateApp"]
+- ["Ps9Equatable", "application"]
+- ["Ps9Equatable", "applicationDidBecomeActive"]
+- ["Ps9Equatable", "applicationDidEnterBackground"]
+- ["Ps9Equatable", "applicationDidFinishLaunching"]
+- ["Ps9Equatable", "applicationDidReceiveMemoryWarning"]
+- ["Ps9Equatable", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps9Equatable", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps9Equatable", "applicationShouldRequestHealthAuthorization"]
+- ["Ps9Equatable", "applicationSignificantTimeChange"]
+- ["Ps9Equatable", "applicationWillEnterForeground"]
+- ["Ps9Equatable", "applicationWillResignActive"]
+- ["Ps9Equatable", "applicationWillTerminate"]
+- !private ["Ps9Equatable", "configure"]
+- !private ["Ps9Equatable", "database"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "loggedUser"]
+- !private ["Ps9Equatable", "persistenceEnabled"]
+- !private ["Ps9Equatable", "sharedInstance"]
+- ["Ps9Equatable", "window"]
+- ["Ps9Equatable", ""]
+- !private ["CSo14FBSDKAppEvents", "activateApp"]
+- !private ["CSo24FBSDKApplicationDelegate", "application"]
+- !private ["CSo24FBSDKApplicationDelegate", "sharedInstance"]
+- !private ["CSo6FIRApp", "configure"]
+- !private ["CSo11FIRDatabase", "database"]
+- !private ["CSo11FIRDatabase", "persistenceEnabled"]
+- !private ["Ps8Hashable", "CoreDataStackManager"]
+- !private ["Ps8Hashable", "FBSDKAppEvents"]
+- !private ["Ps8Hashable", "FBSDKApplicationDelegate"]
+- !private ["Ps8Hashable", "FIRApp"]
+- !private ["Ps8Hashable", "FIRDatabase"]
+- !private ["Ps8Hashable", "activateApp"]
+- ["Ps8Hashable", "application"]
+- ["Ps8Hashable", "applicationDidBecomeActive"]
+- ["Ps8Hashable", "applicationDidEnterBackground"]
+- ["Ps8Hashable", "applicationDidFinishLaunching"]
+- ["Ps8Hashable", "applicationDidReceiveMemoryWarning"]
+- ["Ps8Hashable", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps8Hashable", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps8Hashable", "applicationShouldRequestHealthAuthorization"]
+- ["Ps8Hashable", "applicationSignificantTimeChange"]
+- ["Ps8Hashable", "applicationWillEnterForeground"]
+- ["Ps8Hashable", "applicationWillResignActive"]
+- ["Ps8Hashable", "applicationWillTerminate"]
+- !private ["Ps8Hashable", "configure"]
+- !private ["Ps8Hashable", "database"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "loggedUser"]
+- !private ["Ps8Hashable", "persistenceEnabled"]
+- !private ["Ps8Hashable", "sharedInstance"]
+- ["Ps8Hashable", "window"]
+- ["Ps8Hashable", ""]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "CoreDataStackManager"]
+- !private ["CSo8NSObject", "FBSDKAppEvents"]
+- !private ["CSo8NSObject", "FBSDKApplicationDelegate"]
+- !private ["CSo8NSObject", "FIRApp"]
+- !private ["CSo8NSObject", "FIRDatabase"]
+- ["CSo8NSObject", "NSObject"]
+- ["CSo8NSObject", "NSURL"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UIApplication"]
+- ["CSo8NSObject", "UIWindow"]
+- ["CSo8NSObject", "User"]
+- !private ["CSo8NSObject", "activateApp"]
+- ["CSo8NSObject", "application"]
+- ["CSo8NSObject", "applicationDidBecomeActive"]
+- ["CSo8NSObject", "applicationDidEnterBackground"]
+- ["CSo8NSObject", "applicationDidFinishLaunching"]
+- ["CSo8NSObject", "applicationDidReceiveMemoryWarning"]
+- ["CSo8NSObject", "applicationProtectedDataDidBecomeAvailable"]
+- ["CSo8NSObject", "applicationProtectedDataWillBecomeUnavailable"]
+- ["CSo8NSObject", "applicationShouldRequestHealthAuthorization"]
+- ["CSo8NSObject", "applicationSignificantTimeChange"]
+- ["CSo8NSObject", "applicationWillEnterForeground"]
+- ["CSo8NSObject", "applicationWillResignActive"]
+- ["CSo8NSObject", "applicationWillTerminate"]
+- !private ["CSo8NSObject", "configure"]
+- !private ["CSo8NSObject", "database"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "loggedUser"]
+- !private ["CSo8NSObject", "persistenceEnabled"]
+- !private ["CSo8NSObject", "sharedInstance"]
+- ["CSo8NSObject", "window"]
+- !private ["PSo16NSObjectProtocol", "CoreDataStackManager"]
+- !private ["PSo16NSObjectProtocol", "FBSDKAppEvents"]
+- !private ["PSo16NSObjectProtocol", "FBSDKApplicationDelegate"]
+- !private ["PSo16NSObjectProtocol", "FIRApp"]
+- !private ["PSo16NSObjectProtocol", "FIRDatabase"]
+- !private ["PSo16NSObjectProtocol", "activateApp"]
+- ["PSo16NSObjectProtocol", "application"]
+- ["PSo16NSObjectProtocol", "applicationDidBecomeActive"]
+- ["PSo16NSObjectProtocol", "applicationDidEnterBackground"]
+- ["PSo16NSObjectProtocol", "applicationDidFinishLaunching"]
+- ["PSo16NSObjectProtocol", "applicationDidReceiveMemoryWarning"]
+- ["PSo16NSObjectProtocol", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSo16NSObjectProtocol", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSo16NSObjectProtocol", "applicationShouldRequestHealthAuthorization"]
+- ["PSo16NSObjectProtocol", "applicationSignificantTimeChange"]
+- ["PSo16NSObjectProtocol", "applicationWillEnterForeground"]
+- ["PSo16NSObjectProtocol", "applicationWillResignActive"]
+- ["PSo16NSObjectProtocol", "applicationWillTerminate"]
+- !private ["PSo16NSObjectProtocol", "configure"]
+- !private ["PSo16NSObjectProtocol", "database"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "loggedUser"]
+- !private ["PSo16NSObjectProtocol", "persistenceEnabled"]
+- !private ["PSo16NSObjectProtocol", "sharedInstance"]
+- ["PSo16NSObjectProtocol", "window"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo21UIApplicationDelegate", "CoreDataStackManager"]
+- !private ["PSo21UIApplicationDelegate", "FBSDKAppEvents"]
+- !private ["PSo21UIApplicationDelegate", "FBSDKApplicationDelegate"]
+- !private ["PSo21UIApplicationDelegate", "FIRApp"]
+- !private ["PSo21UIApplicationDelegate", "FIRDatabase"]
+- ["PSo21UIApplicationDelegate", "application"]
+- ["PSo21UIApplicationDelegate", "applicationDidBecomeActive"]
+- ["PSo21UIApplicationDelegate", "applicationDidEnterBackground"]
+- ["PSo21UIApplicationDelegate", "applicationDidFinishLaunching"]
+- ["PSo21UIApplicationDelegate", "applicationDidReceiveMemoryWarning"]
+- ["PSo21UIApplicationDelegate", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSo21UIApplicationDelegate", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSo21UIApplicationDelegate", "applicationShouldRequestHealthAuthorization"]
+- ["PSo21UIApplicationDelegate", "applicationSignificantTimeChange"]
+- ["PSo21UIApplicationDelegate", "applicationWillEnterForeground"]
+- ["PSo21UIApplicationDelegate", "applicationWillResignActive"]
+- ["PSo21UIApplicationDelegate", "applicationWillTerminate"]
+- ["PSo21UIApplicationDelegate", "window"]
+- ["PSo21UIApplicationDelegate", ""]
+- ["CSo11UIResponder", "AnyObject"]
+- ["CSo11UIResponder", "Bool"]
+- !private ["CSo11UIResponder", "CoreDataStackManager"]
+- !private ["CSo11UIResponder", "FBSDKAppEvents"]
+- !private ["CSo11UIResponder", "FBSDKApplicationDelegate"]
+- !private ["CSo11UIResponder", "FIRApp"]
+- !private ["CSo11UIResponder", "FIRDatabase"]
+- ["CSo11UIResponder", "NSObject"]
+- ["CSo11UIResponder", "NSURL"]
+- ["CSo11UIResponder", "String"]
+- ["CSo11UIResponder", "UIApplication"]
+- ["CSo11UIResponder", "UIWindow"]
+- ["CSo11UIResponder", "User"]
+- ["CSo11UIResponder", "application"]
+- ["CSo11UIResponder", "applicationDidBecomeActive"]
+- ["CSo11UIResponder", "applicationDidEnterBackground"]
+- ["CSo11UIResponder", "applicationDidFinishLaunching"]
+- ["CSo11UIResponder", "applicationDidReceiveMemoryWarning"]
+- ["CSo11UIResponder", "applicationProtectedDataDidBecomeAvailable"]
+- ["CSo11UIResponder", "applicationProtectedDataWillBecomeUnavailable"]
+- ["CSo11UIResponder", "applicationShouldRequestHealthAuthorization"]
+- ["CSo11UIResponder", "applicationSignificantTimeChange"]
+- ["CSo11UIResponder", "applicationWillEnterForeground"]
+- ["CSo11UIResponder", "applicationWillResignActive"]
+- ["CSo11UIResponder", "applicationWillTerminate"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "loggedUser"]
+- ["CSo11UIResponder", "window"]
+- ["CSo11UIResponder", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "C11Unique_Look11AppDelegate"
+- "Ps11CVarArgType"
+- !private "C11Unique_Look20CoreDataStackManager"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "CSo14FBSDKAppEvents"
+- !private "CSo24FBSDKApplicationDelegate"
+- !private "CSo6FIRApp"
+- !private "CSo11FIRDatabase"
+- "Ps8Hashable"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo21UIApplicationDelegate"
+- "CSo11UIResponder"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/AVFoundation.swiftmodule"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Firebase/Headers/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreData.swiftmodule"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRUserInfo.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRUser.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRAuthCredential.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRAuthErrors.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRAuth.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRTwitterAuthProvider.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRGoogleAuthProvider.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRGitHubAuthProvider.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRFacebookAuthProvider.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIREmailPasswordAuthProvider.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseStorage/FirebaseStorage/FIRStorageTaskSnapshot.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseStorage/FirebaseStorage/FIRStorageUploadTask.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseStorage/FirebaseStorage/FIRStorageReference.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseStorage/FirebaseStorage/FIRStorageMetadata.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseStorage/FirebaseStorage/FIRStorageTask.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseStorage/FirebaseStorage/FIRStorageObservableTask.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseStorage/FirebaseStorage/FIRStorageDownloadTask.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseStorage/FirebaseStorage/FIRStorageConstants.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseStorage/FirebaseStorage/FIRStorage.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseStorage/FirebaseStorage/FirebaseStorage.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseInstanceID/FirebaseInstanceID/FIRInstanceID.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseInstanceID/FirebaseInstanceID/FirebaseInstanceID.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRServerValue.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRTransactionResult.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRMutableData.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRDataSnapshot.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRDataEventType.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRDatabaseQuery.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRDatabaseReference.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRDatabase.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FirebaseDatabase.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FirebaseAuth.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIROptions.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIRConfiguration.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIRApp.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIRAnalyticsConfiguration.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIRUserPropertyNames.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIRParameterNames.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIREventNames.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIRAnalytics.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIRAnalytics+AppDelegate.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FirebaseAnalytics.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Firebase/Headers/Firebase.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/Bolts.framework/Headers/Bolts.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFTask.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFURL_Internal.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFURL.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFMeasurementEvent_Internal.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFAppLinkReturnToRefererView_Internal.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFAppLink_Internal.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/Bolts.framework/Headers/Bolts-umbrella.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/Bolts.framework/Modules/module.modulemap"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-umbrella.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/FBSDKLoginKit.framework/Modules/module.modulemap"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/TagListView.framework/Modules/TagListView.swiftmodule/arm.swiftmodule"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/TagListView.framework/Headers/TagListView-Swift.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/TagListView.framework/Headers/TagListView-umbrella.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/TagListView.framework/Modules/module.modulemap"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/Toucan.framework/Modules/Toucan.swiftmodule/arm.swiftmodule"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/Toucan.framework/Headers/Toucan-Swift.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/Toucan.framework/Headers/Toucan-umbrella.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/Toucan.framework/Modules/module.modulemap"
+interface-hash: "1db12bd78a44236e7c6eb17801338db7"

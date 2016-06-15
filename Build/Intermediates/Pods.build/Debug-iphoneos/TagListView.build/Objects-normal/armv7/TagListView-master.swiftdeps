@@ -1,0 +1,7 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.1 clang-703.0.29)"
+options: "e39a390087c5a45ddab9cb9e41af7ec8"
+build_time: [517457193, 664733000]
+inputs:
+  "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/TagListView/TagListView/CloseButton.swift": [517375593, 0]
+  "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/TagListView/TagListView/TagListView.swift": [517375593, 0]
+  "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/TagListView/TagListView/TagView.swift": [517375593, 0]

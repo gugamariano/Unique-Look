@@ -1,0 +1,1230 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Look"
+provides-nominal:
+- "C11Unique_Look4Look"
+provides-member:
+- ["C11Unique_Look4Look", ""]
+provides-dynamic-lookup:
+- "saveImage"
+- "deleteTag"
+- "addTag"
+- "addLookTag"
+- "storage"
+- "deleteLook"
+- "saveLocalImage"
+- "deleteLookRemote"
+- "database"
+depends-top-level:
+- "String"
+- "NSManagedObject"
+- "NSManagedObjectContext"
+- !private "print"
+- "UIImage"
+- "FIRStorage"
+- "Bool"
+- "NSEntityDescription"
+- !private "AnyObject"
+- "LookTag"
+- !private "StringLiteralType"
+- !private "=="
+- !private "ImageCache"
+- !private "AppDelegate"
+- !private "NSNumber"
+- !private "!="
+- "NSDictionary"
+- "Look"
+- "FIRDatabase"
+- !private "UIApplication"
+- !private "NSObject"
+- !private "CoreDataStackManager"
+- !private "Dictionary"
+- !private "FIRStorageMetadata"
+- !private "dispatch_async"
+- "AppConfig"
+- "Double"
+- !private "dispatch_get_main_queue"
+- !private "NSDate"
+depends-member:
+- !private ["Ps16AbsoluteValuable", "init"]
+- ["Ps9AnyObject", "AppConfig"]
+- ["Ps9AnyObject", "Constants"]
+- !private ["Ps9AnyObject", "CoreDataStackManager"]
+- !private ["Ps9AnyObject", "Double"]
+- !private ["Ps9AnyObject", "Element"]
+- ["Ps9AnyObject", "FIRDatabase"]
+- ["Ps9AnyObject", "FIRStorage"]
+- !private ["Ps9AnyObject", "FIRStorageMetadata"]
+- !private ["Ps9AnyObject", "Generator"]
+- !private ["Ps9AnyObject", "ImageCache"]
+- !private ["Ps9AnyObject", "JSONKeys"]
+- !private ["Ps9AnyObject", "Key"]
+- !private ["Ps9AnyObject", "LookTag"]
+- !private ["Ps9AnyObject", "NSDate"]
+- !private ["Ps9AnyObject", "NSEntityDescription"]
+- !private ["Ps9AnyObject", "Static"]
+- !private ["Ps9AnyObject", "String"]
+- !private ["Ps9AnyObject", "UIApplication"]
+- !private ["Ps9AnyObject", "Value"]
+- !private ["Ps9AnyObject", "absoluteString"]
+- ["Ps9AnyObject", "addLookTag"]
+- ["Ps9AnyObject", "addTag"]
+- !private ["Ps9AnyObject", "allObjects"]
+- !private ["Ps9AnyObject", "child"]
+- !private ["Ps9AnyObject", "childByAutoId"]
+- !private ["Ps9AnyObject", "contentType"]
+- !private ["Ps9AnyObject", "creationDate"]
+- ["Ps9AnyObject", "database"]
+- !private ["Ps9AnyObject", "dayOfWeek"]
+- !private ["Ps9AnyObject", "delegate"]
+- ["Ps9AnyObject", "deleteLook"]
+- ["Ps9AnyObject", "deleteLookRemote"]
+- !private ["Ps9AnyObject", "deleteObject"]
+- ["Ps9AnyObject", "deleteTag"]
+- !private ["Ps9AnyObject", "dispatch_async"]
+- !private ["Ps9AnyObject", "dispatch_get_main_queue"]
+- !private ["Ps9AnyObject", "downloadURL"]
+- !private ["Ps9AnyObject", "entityForName"]
+- !private ["Ps9AnyObject", "forEach"]
+- !private ["Ps9AnyObject", "id"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "key"]
+- !private ["Ps9AnyObject", "lastUpdate"]
+- !private ["Ps9AnyObject", "loggedUser"]
+- !private ["Ps9AnyObject", "look"]
+- !private ["Ps9AnyObject", "managedObjectContext"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "putData"]
+- ["Ps9AnyObject", "reference"]
+- ["Ps9AnyObject", "referenceForURL"]
+- !private ["Ps9AnyObject", "removeImage"]
+- !private ["Ps9AnyObject", "removeValue"]
+- !private ["Ps9AnyObject", "save"]
+- !private ["Ps9AnyObject", "saveContext"]
+- ["Ps9AnyObject", "saveImage"]
+- ["Ps9AnyObject", "saveLocalImage"]
+- !private ["Ps9AnyObject", "setByAddingObject"]
+- !private ["Ps9AnyObject", "setValue"]
+- !private ["Ps9AnyObject", "sharedApplication"]
+- !private ["Ps9AnyObject", "sharedInstance"]
+- ["Ps9AnyObject", "storage"]
+- !private ["Ps9AnyObject", "storeImage"]
+- !private ["Ps9AnyObject", "storeThumbImage"]
+- !private ["Ps9AnyObject", "subscript"]
+- !private ["Ps9AnyObject", "tags"]
+- !private ["Ps9AnyObject", "text"]
+- !private ["Ps9AnyObject", "thumbUrl"]
+- !private ["Ps9AnyObject", "timeIntervalSince1970"]
+- !private ["Ps9AnyObject", "uid"]
+- !private ["Ps9AnyObject", "updateChildValues"]
+- !private ["Ps9AnyObject", "url"]
+- !private ["Ps9AnyObject", "user"]
+- ["Ps9AnyObject", ""]
+- ["C11Unique_Look9AppConfig", "Constants"]
+- !private ["C11Unique_Look9AppConfig", "JSONKeys"]
+- !private ["C11Unique_Look11AppDelegate", "loggedUser"]
+- !private ["Sa", "Generator"]
+- !private ["Sa", "Index"]
+- !private ["Sa", "SubSequence"]
+- !private ["Sa", "_Element"]
+- !private ["Sa", "append"]
+- !private ["Sa", "deinit"]
+- !private ["Ps23ArrayLiteralConvertible", "Generator"]
+- !private ["Ps23ArrayLiteralConvertible", "Index"]
+- !private ["Ps23ArrayLiteralConvertible", "SubSequence"]
+- !private ["Ps23ArrayLiteralConvertible", "_Element"]
+- !private ["Ps23ArrayLiteralConvertible", "allObjects"]
+- !private ["Ps23ArrayLiteralConvertible", "append"]
+- !private ["Ps23ArrayLiteralConvertible", "forEach"]
+- !private ["Ps23ArrayLiteralConvertible", "setByAddingObject"]
+- !private ["Vs10ArraySlice", "Generator"]
+- !private ["Vs10ArraySlice", "Index"]
+- !private ["Ps22BidirectionalIndexType", "Distance"]
+- !private ["Ps22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["Ps21BitwiseOperationsType", "Distance"]
+- !private ["Ps21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- ["Ps11CVarArgType", "AppConfig"]
+- ["Ps11CVarArgType", "Constants"]
+- !private ["Ps11CVarArgType", "CoreDataStackManager"]
+- !private ["Ps11CVarArgType", "Distance"]
+- !private ["Ps11CVarArgType", "Double"]
+- ["Ps11CVarArgType", "FIRDatabase"]
+- ["Ps11CVarArgType", "FIRStorage"]
+- !private ["Ps11CVarArgType", "FIRStorageMetadata"]
+- !private ["Ps11CVarArgType", "Generator"]
+- !private ["Ps11CVarArgType", "ImageCache"]
+- !private ["Ps11CVarArgType", "IntegerLiteralType"]
+- !private ["Ps11CVarArgType", "JSONKeys"]
+- !private ["Ps11CVarArgType", "Key"]
+- !private ["Ps11CVarArgType", "LookTag"]
+- !private ["Ps11CVarArgType", "NSDate"]
+- !private ["Ps11CVarArgType", "NSEntityDescription"]
+- !private ["Ps11CVarArgType", "String"]
+- !private ["Ps11CVarArgType", "UIApplication"]
+- !private ["Ps11CVarArgType", "Value"]
+- !private ["Ps11CVarArgType", "absoluteString"]
+- ["Ps11CVarArgType", "addLookTag"]
+- ["Ps11CVarArgType", "addTag"]
+- !private ["Ps11CVarArgType", "allObjects"]
+- !private ["Ps11CVarArgType", "child"]
+- !private ["Ps11CVarArgType", "childByAutoId"]
+- !private ["Ps11CVarArgType", "contentType"]
+- !private ["Ps11CVarArgType", "creationDate"]
+- ["Ps11CVarArgType", "database"]
+- !private ["Ps11CVarArgType", "dayOfWeek"]
+- !private ["Ps11CVarArgType", "delegate"]
+- ["Ps11CVarArgType", "deleteLook"]
+- ["Ps11CVarArgType", "deleteLookRemote"]
+- !private ["Ps11CVarArgType", "deleteObject"]
+- ["Ps11CVarArgType", "deleteTag"]
+- !private ["Ps11CVarArgType", "dispatch_async"]
+- !private ["Ps11CVarArgType", "dispatch_get_main_queue"]
+- !private ["Ps11CVarArgType", "downloadURL"]
+- !private ["Ps11CVarArgType", "entityForName"]
+- !private ["Ps11CVarArgType", "forEach"]
+- !private ["Ps11CVarArgType", "id"]
+- ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "key"]
+- !private ["Ps11CVarArgType", "lastUpdate"]
+- !private ["Ps11CVarArgType", "loggedUser"]
+- !private ["Ps11CVarArgType", "look"]
+- !private ["Ps11CVarArgType", "managedObjectContext"]
+- !private ["Ps11CVarArgType", "print"]
+- !private ["Ps11CVarArgType", "putData"]
+- ["Ps11CVarArgType", "reference"]
+- ["Ps11CVarArgType", "referenceForURL"]
+- !private ["Ps11CVarArgType", "removeValue"]
+- !private ["Ps11CVarArgType", "save"]
+- ["Ps11CVarArgType", "saveImage"]
+- ["Ps11CVarArgType", "saveLocalImage"]
+- !private ["Ps11CVarArgType", "setByAddingObject"]
+- !private ["Ps11CVarArgType", "setValue"]
+- !private ["Ps11CVarArgType", "sharedApplication"]
+- ["Ps11CVarArgType", "storage"]
+- !private ["Ps11CVarArgType", "subscript"]
+- !private ["Ps11CVarArgType", "tags"]
+- !private ["Ps11CVarArgType", "text"]
+- !private ["Ps11CVarArgType", "thumbUrl"]
+- !private ["Ps11CVarArgType", "timeIntervalSince1970"]
+- !private ["Ps11CVarArgType", "uid"]
+- !private ["Ps11CVarArgType", "updateChildValues"]
+- !private ["Ps11CVarArgType", "url"]
+- !private ["Ps11CVarArgType", "user"]
+- ["Ps11CVarArgType", ""]
+- !private ["Ps14CollectionType", "Generator"]
+- !private ["Ps14CollectionType", "Index"]
+- !private ["Ps14CollectionType", "Key"]
+- !private ["Ps14CollectionType", "SubSequence"]
+- !private ["Ps14CollectionType", "Value"]
+- !private ["Ps14CollectionType", "_Element"]
+- !private ["Ps14CollectionType", "append"]
+- !private ["Ps10Comparable", "Distance"]
+- !private ["Ps10Comparable", "IntegerLiteralType"]
+- !private ["Ps10Comparable", "init"]
+- ["VC11Unique_Look9AppConfig9Constants", "FIREBASE_BUCKET"]
+- !private ["C11Unique_Look20CoreDataStackManager", "saveContext"]
+- !private ["C11Unique_Look20CoreDataStackManager", "sharedInstance"]
+- ["Ps28CustomDebugStringConvertible", "AppConfig"]
+- ["Ps28CustomDebugStringConvertible", "Constants"]
+- !private ["Ps28CustomDebugStringConvertible", "CoreDataStackManager"]
+- !private ["Ps28CustomDebugStringConvertible", "Double"]
+- ["Ps28CustomDebugStringConvertible", "FIRDatabase"]
+- ["Ps28CustomDebugStringConvertible", "FIRStorage"]
+- !private ["Ps28CustomDebugStringConvertible", "FIRStorageMetadata"]
+- !private ["Ps28CustomDebugStringConvertible", "Generator"]
+- !private ["Ps28CustomDebugStringConvertible", "ImageCache"]
+- !private ["Ps28CustomDebugStringConvertible", "Index"]
+- !private ["Ps28CustomDebugStringConvertible", "JSONKeys"]
+- !private ["Ps28CustomDebugStringConvertible", "Key"]
+- !private ["Ps28CustomDebugStringConvertible", "LookTag"]
+- !private ["Ps28CustomDebugStringConvertible", "NSDate"]
+- !private ["Ps28CustomDebugStringConvertible", "NSEntityDescription"]
+- !private ["Ps28CustomDebugStringConvertible", "String"]
+- !private ["Ps28CustomDebugStringConvertible", "SubSequence"]
+- !private ["Ps28CustomDebugStringConvertible", "UIApplication"]
+- !private ["Ps28CustomDebugStringConvertible", "Value"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- !private ["Ps28CustomDebugStringConvertible", "absoluteString"]
+- ["Ps28CustomDebugStringConvertible", "addLookTag"]
+- ["Ps28CustomDebugStringConvertible", "addTag"]
+- !private ["Ps28CustomDebugStringConvertible", "allObjects"]
+- !private ["Ps28CustomDebugStringConvertible", "append"]
+- !private ["Ps28CustomDebugStringConvertible", "child"]
+- !private ["Ps28CustomDebugStringConvertible", "childByAutoId"]
+- !private ["Ps28CustomDebugStringConvertible", "contentType"]
+- !private ["Ps28CustomDebugStringConvertible", "creationDate"]
+- ["Ps28CustomDebugStringConvertible", "database"]
+- !private ["Ps28CustomDebugStringConvertible", "dayOfWeek"]
+- !private ["Ps28CustomDebugStringConvertible", "delegate"]
+- ["Ps28CustomDebugStringConvertible", "deleteLook"]
+- ["Ps28CustomDebugStringConvertible", "deleteLookRemote"]
+- !private ["Ps28CustomDebugStringConvertible", "deleteObject"]
+- ["Ps28CustomDebugStringConvertible", "deleteTag"]
+- !private ["Ps28CustomDebugStringConvertible", "dispatch_async"]
+- !private ["Ps28CustomDebugStringConvertible", "dispatch_get_main_queue"]
+- !private ["Ps28CustomDebugStringConvertible", "downloadURL"]
+- !private ["Ps28CustomDebugStringConvertible", "entityForName"]
+- !private ["Ps28CustomDebugStringConvertible", "forEach"]
+- !private ["Ps28CustomDebugStringConvertible", "id"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "key"]
+- !private ["Ps28CustomDebugStringConvertible", "lastUpdate"]
+- !private ["Ps28CustomDebugStringConvertible", "loggedUser"]
+- !private ["Ps28CustomDebugStringConvertible", "look"]
+- !private ["Ps28CustomDebugStringConvertible", "managedObjectContext"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- !private ["Ps28CustomDebugStringConvertible", "putData"]
+- ["Ps28CustomDebugStringConvertible", "reference"]
+- ["Ps28CustomDebugStringConvertible", "referenceForURL"]
+- !private ["Ps28CustomDebugStringConvertible", "removeValue"]
+- !private ["Ps28CustomDebugStringConvertible", "save"]
+- ["Ps28CustomDebugStringConvertible", "saveImage"]
+- ["Ps28CustomDebugStringConvertible", "saveLocalImage"]
+- !private ["Ps28CustomDebugStringConvertible", "setByAddingObject"]
+- !private ["Ps28CustomDebugStringConvertible", "setValue"]
+- !private ["Ps28CustomDebugStringConvertible", "sharedApplication"]
+- ["Ps28CustomDebugStringConvertible", "storage"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "tags"]
+- !private ["Ps28CustomDebugStringConvertible", "text"]
+- !private ["Ps28CustomDebugStringConvertible", "thumbUrl"]
+- !private ["Ps28CustomDebugStringConvertible", "timeIntervalSince1970"]
+- !private ["Ps28CustomDebugStringConvertible", "uid"]
+- !private ["Ps28CustomDebugStringConvertible", "updateChildValues"]
+- !private ["Ps28CustomDebugStringConvertible", "url"]
+- !private ["Ps28CustomDebugStringConvertible", "user"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps23CustomStringConvertible", "AppConfig"]
+- ["Ps23CustomStringConvertible", "Constants"]
+- !private ["Ps23CustomStringConvertible", "CoreDataStackManager"]
+- !private ["Ps23CustomStringConvertible", "Distance"]
+- !private ["Ps23CustomStringConvertible", "Double"]
+- ["Ps23CustomStringConvertible", "FIRDatabase"]
+- ["Ps23CustomStringConvertible", "FIRStorage"]
+- !private ["Ps23CustomStringConvertible", "FIRStorageMetadata"]
+- !private ["Ps23CustomStringConvertible", "Generator"]
+- !private ["Ps23CustomStringConvertible", "ImageCache"]
+- !private ["Ps23CustomStringConvertible", "Index"]
+- !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["Ps23CustomStringConvertible", "JSONKeys"]
+- !private ["Ps23CustomStringConvertible", "Key"]
+- !private ["Ps23CustomStringConvertible", "LookTag"]
+- !private ["Ps23CustomStringConvertible", "NSDate"]
+- !private ["Ps23CustomStringConvertible", "NSEntityDescription"]
+- !private ["Ps23CustomStringConvertible", "String"]
+- !private ["Ps23CustomStringConvertible", "SubSequence"]
+- !private ["Ps23CustomStringConvertible", "UIApplication"]
+- !private ["Ps23CustomStringConvertible", "Value"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "absoluteString"]
+- ["Ps23CustomStringConvertible", "addLookTag"]
+- ["Ps23CustomStringConvertible", "addTag"]
+- !private ["Ps23CustomStringConvertible", "allObjects"]
+- !private ["Ps23CustomStringConvertible", "append"]
+- !private ["Ps23CustomStringConvertible", "child"]
+- !private ["Ps23CustomStringConvertible", "childByAutoId"]
+- !private ["Ps23CustomStringConvertible", "contentType"]
+- !private ["Ps23CustomStringConvertible", "creationDate"]
+- ["Ps23CustomStringConvertible", "database"]
+- !private ["Ps23CustomStringConvertible", "dayOfWeek"]
+- !private ["Ps23CustomStringConvertible", "delegate"]
+- ["Ps23CustomStringConvertible", "deleteLook"]
+- ["Ps23CustomStringConvertible", "deleteLookRemote"]
+- !private ["Ps23CustomStringConvertible", "deleteObject"]
+- ["Ps23CustomStringConvertible", "deleteTag"]
+- !private ["Ps23CustomStringConvertible", "dispatch_async"]
+- !private ["Ps23CustomStringConvertible", "dispatch_get_main_queue"]
+- !private ["Ps23CustomStringConvertible", "downloadURL"]
+- !private ["Ps23CustomStringConvertible", "entityForName"]
+- !private ["Ps23CustomStringConvertible", "forEach"]
+- !private ["Ps23CustomStringConvertible", "id"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "key"]
+- !private ["Ps23CustomStringConvertible", "lastUpdate"]
+- !private ["Ps23CustomStringConvertible", "loggedUser"]
+- !private ["Ps23CustomStringConvertible", "look"]
+- !private ["Ps23CustomStringConvertible", "managedObjectContext"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- !private ["Ps23CustomStringConvertible", "putData"]
+- ["Ps23CustomStringConvertible", "reference"]
+- ["Ps23CustomStringConvertible", "referenceForURL"]
+- !private ["Ps23CustomStringConvertible", "removeValue"]
+- !private ["Ps23CustomStringConvertible", "save"]
+- ["Ps23CustomStringConvertible", "saveImage"]
+- ["Ps23CustomStringConvertible", "saveLocalImage"]
+- !private ["Ps23CustomStringConvertible", "setByAddingObject"]
+- !private ["Ps23CustomStringConvertible", "setValue"]
+- !private ["Ps23CustomStringConvertible", "sharedApplication"]
+- ["Ps23CustomStringConvertible", "storage"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "tags"]
+- !private ["Ps23CustomStringConvertible", "text"]
+- !private ["Ps23CustomStringConvertible", "thumbUrl"]
+- !private ["Ps23CustomStringConvertible", "timeIntervalSince1970"]
+- !private ["Ps23CustomStringConvertible", "uid"]
+- !private ["Ps23CustomStringConvertible", "updateChildValues"]
+- !private ["Ps23CustomStringConvertible", "url"]
+- !private ["Ps23CustomStringConvertible", "user"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Vs10Dictionary", "Key"]
+- !private ["Vs10Dictionary", "Value"]
+- !private ["Ps28DictionaryLiteralConvertible", "Key"]
+- !private ["Ps28DictionaryLiteralConvertible", "Value"]
+- !private ["Ps28DictionaryLiteralConvertible", "subscript"]
+- !private ["Sd", "deinit"]
+- !private ["Sd", "init"]
+- ["Ps9Equatable", "AppConfig"]
+- ["Ps9Equatable", "Constants"]
+- !private ["Ps9Equatable", "CoreDataStackManager"]
+- !private ["Ps9Equatable", "Distance"]
+- !private ["Ps9Equatable", "Double"]
+- ["Ps9Equatable", "FIRDatabase"]
+- ["Ps9Equatable", "FIRStorage"]
+- !private ["Ps9Equatable", "FIRStorageMetadata"]
+- !private ["Ps9Equatable", "Generator"]
+- !private ["Ps9Equatable", "ImageCache"]
+- !private ["Ps9Equatable", "IntegerLiteralType"]
+- !private ["Ps9Equatable", "JSONKeys"]
+- !private ["Ps9Equatable", "Key"]
+- !private ["Ps9Equatable", "LookTag"]
+- !private ["Ps9Equatable", "NSDate"]
+- !private ["Ps9Equatable", "NSEntityDescription"]
+- !private ["Ps9Equatable", "String"]
+- !private ["Ps9Equatable", "UIApplication"]
+- !private ["Ps9Equatable", "Value"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "absoluteString"]
+- ["Ps9Equatable", "addLookTag"]
+- ["Ps9Equatable", "addTag"]
+- !private ["Ps9Equatable", "allObjects"]
+- !private ["Ps9Equatable", "child"]
+- !private ["Ps9Equatable", "childByAutoId"]
+- !private ["Ps9Equatable", "contentType"]
+- !private ["Ps9Equatable", "creationDate"]
+- ["Ps9Equatable", "database"]
+- !private ["Ps9Equatable", "dayOfWeek"]
+- !private ["Ps9Equatable", "delegate"]
+- ["Ps9Equatable", "deleteLook"]
+- ["Ps9Equatable", "deleteLookRemote"]
+- !private ["Ps9Equatable", "deleteObject"]
+- ["Ps9Equatable", "deleteTag"]
+- !private ["Ps9Equatable", "dispatch_async"]
+- !private ["Ps9Equatable", "dispatch_get_main_queue"]
+- !private ["Ps9Equatable", "downloadURL"]
+- !private ["Ps9Equatable", "entityForName"]
+- !private ["Ps9Equatable", "forEach"]
+- !private ["Ps9Equatable", "id"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "key"]
+- !private ["Ps9Equatable", "lastUpdate"]
+- !private ["Ps9Equatable", "loggedUser"]
+- !private ["Ps9Equatable", "look"]
+- !private ["Ps9Equatable", "managedObjectContext"]
+- !private ["Ps9Equatable", "print"]
+- !private ["Ps9Equatable", "putData"]
+- ["Ps9Equatable", "reference"]
+- ["Ps9Equatable", "referenceForURL"]
+- !private ["Ps9Equatable", "removeValue"]
+- !private ["Ps9Equatable", "save"]
+- ["Ps9Equatable", "saveImage"]
+- ["Ps9Equatable", "saveLocalImage"]
+- !private ["Ps9Equatable", "setByAddingObject"]
+- !private ["Ps9Equatable", "setValue"]
+- !private ["Ps9Equatable", "sharedApplication"]
+- ["Ps9Equatable", "storage"]
+- !private ["Ps9Equatable", "subscript"]
+- !private ["Ps9Equatable", "tags"]
+- !private ["Ps9Equatable", "text"]
+- !private ["Ps9Equatable", "thumbUrl"]
+- !private ["Ps9Equatable", "timeIntervalSince1970"]
+- !private ["Ps9Equatable", "uid"]
+- !private ["Ps9Equatable", "updateChildValues"]
+- !private ["Ps9Equatable", "url"]
+- !private ["Ps9Equatable", "user"]
+- ["Ps9Equatable", ""]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- ["CSo11FIRDatabase", "database"]
+- ["CSo11FIRDatabase", "reference"]
+- !private ["CSo16FIRDatabaseQuery", "child"]
+- !private ["CSo16FIRDatabaseQuery", "childByAutoId"]
+- !private ["CSo16FIRDatabaseQuery", "key"]
+- !private ["CSo16FIRDatabaseQuery", "removeValue"]
+- !private ["CSo16FIRDatabaseQuery", "setValue"]
+- !private ["CSo16FIRDatabaseQuery", "updateChildValues"]
+- !private ["CSo20FIRDatabaseReference", "child"]
+- !private ["CSo20FIRDatabaseReference", "childByAutoId"]
+- !private ["CSo20FIRDatabaseReference", "key"]
+- !private ["CSo20FIRDatabaseReference", "removeValue"]
+- !private ["CSo20FIRDatabaseReference", "setValue"]
+- !private ["CSo20FIRDatabaseReference", "updateChildValues"]
+- ["CSo10FIRStorage", "referenceForURL"]
+- ["CSo10FIRStorage", "storage"]
+- !private ["CSo18FIRStorageMetadata", "contentType"]
+- !private ["CSo18FIRStorageMetadata", "downloadURL"]
+- !private ["CSo18FIRStorageMetadata", "init"]
+- !private ["CSo19FIRStorageReference", "child"]
+- !private ["CSo19FIRStorageReference", "putData"]
+- !private ["Ps23FloatLiteralConvertible", "init"]
+- !private ["Ps17FloatingPointType", "init"]
+- !private ["Ps16ForwardIndexType", "Distance"]
+- !private ["Ps16ForwardIndexType", "IntegerLiteralType"]
+- !private ["Ps13GeneratorType", "Element"]
+- ["Ps8Hashable", "AppConfig"]
+- ["Ps8Hashable", "Constants"]
+- !private ["Ps8Hashable", "CoreDataStackManager"]
+- !private ["Ps8Hashable", "Distance"]
+- !private ["Ps8Hashable", "Double"]
+- ["Ps8Hashable", "FIRDatabase"]
+- ["Ps8Hashable", "FIRStorage"]
+- !private ["Ps8Hashable", "FIRStorageMetadata"]
+- !private ["Ps8Hashable", "Generator"]
+- !private ["Ps8Hashable", "ImageCache"]
+- !private ["Ps8Hashable", "IntegerLiteralType"]
+- !private ["Ps8Hashable", "JSONKeys"]
+- !private ["Ps8Hashable", "Key"]
+- !private ["Ps8Hashable", "LookTag"]
+- !private ["Ps8Hashable", "NSDate"]
+- !private ["Ps8Hashable", "NSEntityDescription"]
+- !private ["Ps8Hashable", "String"]
+- !private ["Ps8Hashable", "UIApplication"]
+- !private ["Ps8Hashable", "Value"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "absoluteString"]
+- ["Ps8Hashable", "addLookTag"]
+- ["Ps8Hashable", "addTag"]
+- !private ["Ps8Hashable", "allObjects"]
+- !private ["Ps8Hashable", "child"]
+- !private ["Ps8Hashable", "childByAutoId"]
+- !private ["Ps8Hashable", "contentType"]
+- !private ["Ps8Hashable", "creationDate"]
+- ["Ps8Hashable", "database"]
+- !private ["Ps8Hashable", "dayOfWeek"]
+- !private ["Ps8Hashable", "delegate"]
+- ["Ps8Hashable", "deleteLook"]
+- ["Ps8Hashable", "deleteLookRemote"]
+- !private ["Ps8Hashable", "deleteObject"]
+- ["Ps8Hashable", "deleteTag"]
+- !private ["Ps8Hashable", "dispatch_async"]
+- !private ["Ps8Hashable", "dispatch_get_main_queue"]
+- !private ["Ps8Hashable", "downloadURL"]
+- !private ["Ps8Hashable", "entityForName"]
+- !private ["Ps8Hashable", "forEach"]
+- !private ["Ps8Hashable", "id"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "key"]
+- !private ["Ps8Hashable", "lastUpdate"]
+- !private ["Ps8Hashable", "loggedUser"]
+- !private ["Ps8Hashable", "look"]
+- !private ["Ps8Hashable", "managedObjectContext"]
+- !private ["Ps8Hashable", "print"]
+- !private ["Ps8Hashable", "putData"]
+- ["Ps8Hashable", "reference"]
+- ["Ps8Hashable", "referenceForURL"]
+- !private ["Ps8Hashable", "removeValue"]
+- !private ["Ps8Hashable", "save"]
+- ["Ps8Hashable", "saveImage"]
+- ["Ps8Hashable", "saveLocalImage"]
+- !private ["Ps8Hashable", "setByAddingObject"]
+- !private ["Ps8Hashable", "setValue"]
+- !private ["Ps8Hashable", "sharedApplication"]
+- ["Ps8Hashable", "storage"]
+- !private ["Ps8Hashable", "subscript"]
+- !private ["Ps8Hashable", "tags"]
+- !private ["Ps8Hashable", "text"]
+- !private ["Ps8Hashable", "thumbUrl"]
+- !private ["Ps8Hashable", "timeIntervalSince1970"]
+- !private ["Ps8Hashable", "uid"]
+- !private ["Ps8Hashable", "updateChildValues"]
+- !private ["Ps8Hashable", "url"]
+- !private ["Ps8Hashable", "user"]
+- ["Ps8Hashable", ""]
+- !private ["C11Unique_Look10ImageCache", "Static"]
+- !private ["C11Unique_Look10ImageCache", "removeImage"]
+- !private ["C11Unique_Look10ImageCache", "storeImage"]
+- !private ["C11Unique_Look10ImageCache", "storeThumbImage"]
+- !private ["SQ", "deinit"]
+- !private ["Ps9Indexable", "Generator"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "Key"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "Value"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "append"]
+- !private ["Vs17IndexingGenerator", "Element"]
+- !private ["Si", "Distance"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Ps21IntegerArithmeticType", "Distance"]
+- !private ["Ps21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps25IntegerLiteralConvertible", "Distance"]
+- !private ["Ps25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps25IntegerLiteralConvertible", "init"]
+- !private ["Ps11IntegerType", "Distance"]
+- !private ["Ps11IntegerType", "IntegerLiteralType"]
+- !private ["VC11Unique_Look9AppConfig8JSONKeys", "IMAGES"]
+- !private ["VC11Unique_Look9AppConfig8JSONKeys", "IMAGE_URL"]
+- !private ["VC11Unique_Look9AppConfig8JSONKeys", "LAST_UPDATE"]
+- !private ["VC11Unique_Look9AppConfig8JSONKeys", "LOOKS"]
+- !private ["VC11Unique_Look9AppConfig8JSONKeys", "TAGS"]
+- !private ["VC11Unique_Look9AppConfig8JSONKeys", "THUMBS"]
+- !private ["VC11Unique_Look9AppConfig8JSONKeys", "THUMB_URL"]
+- !private ["VC11Unique_Look9AppConfig8JSONKeys", "USERS"]
+- !private ["C11Unique_Look4Look", "AnyObject"]
+- ["C11Unique_Look4Look", "AppConfig"]
+- !private ["C11Unique_Look4Look", "AppDelegate"]
+- ["C11Unique_Look4Look", "Bool"]
+- !private ["C11Unique_Look4Look", "CoreDataStackManager"]
+- ["C11Unique_Look4Look", "Double"]
+- ["C11Unique_Look4Look", "FIRDatabase"]
+- ["C11Unique_Look4Look", "FIRStorage"]
+- !private ["C11Unique_Look4Look", "FIRStorageMetadata"]
+- !private ["C11Unique_Look4Look", "ImageCache"]
+- ["C11Unique_Look4Look", "LookTag"]
+- !private ["C11Unique_Look4Look", "NSDate"]
+- ["C11Unique_Look4Look", "NSDictionary"]
+- ["C11Unique_Look4Look", "NSEntityDescription"]
+- !private ["C11Unique_Look4Look", "NSManagedObject"]
+- ["C11Unique_Look4Look", "NSManagedObjectContext"]
+- !private ["C11Unique_Look4Look", "NSNumber"]
+- !private ["C11Unique_Look4Look", "NSObject"]
+- ["C11Unique_Look4Look", "String"]
+- !private ["C11Unique_Look4Look", "UIApplication"]
+- ["C11Unique_Look4Look", "UIImage"]
+- ["C11Unique_Look4Look", "addLookTag"]
+- ["C11Unique_Look4Look", "addTag"]
+- !private ["C11Unique_Look4Look", "creationDate"]
+- ["C11Unique_Look4Look", "database"]
+- !private ["C11Unique_Look4Look", "dayOfWeek"]
+- ["C11Unique_Look4Look", "deinit"]
+- ["C11Unique_Look4Look", "deleteLook"]
+- ["C11Unique_Look4Look", "deleteLookRemote"]
+- ["C11Unique_Look4Look", "deleteTag"]
+- !private ["C11Unique_Look4Look", "dispatch_async"]
+- !private ["C11Unique_Look4Look", "dispatch_get_main_queue"]
+- !private ["C11Unique_Look4Look", "id"]
+- ["C11Unique_Look4Look", "init"]
+- !private ["C11Unique_Look4Look", "key"]
+- !private ["C11Unique_Look4Look", "lastUpdate"]
+- !private ["C11Unique_Look4Look", "managedObjectContext"]
+- !private ["C11Unique_Look4Look", "print"]
+- ["C11Unique_Look4Look", "saveImage"]
+- ["C11Unique_Look4Look", "saveLocalImage"]
+- ["C11Unique_Look4Look", "storage"]
+- !private ["C11Unique_Look4Look", "tags"]
+- !private ["C11Unique_Look4Look", "thumbUrl"]
+- !private ["C11Unique_Look4Look", "url"]
+- !private ["C11Unique_Look4Look", "user"]
+- !private ["C11Unique_Look7LookTag", "deinit"]
+- !private ["C11Unique_Look7LookTag", "init"]
+- !private ["C11Unique_Look7LookTag", "key"]
+- !private ["C11Unique_Look7LookTag", "look"]
+- !private ["C11Unique_Look7LookTag", "text"]
+- !private ["Ps14MirrorPathType", "Distance"]
+- !private ["Ps14MirrorPathType", "IntegerLiteralType"]
+- !private ["Ps14MirrorPathType", "init"]
+- !private ["Ps21MutableCollectionType", "Generator"]
+- !private ["Ps21MutableCollectionType", "Index"]
+- !private ["Ps21MutableCollectionType", "SubSequence"]
+- !private ["Ps21MutableCollectionType", "_Element"]
+- !private ["Ps21MutableCollectionType", "append"]
+- !private ["Ps16MutableIndexable", "Generator"]
+- !private ["Ps16MutableIndexable", "Index"]
+- !private ["Ps16MutableIndexable", "SubSequence"]
+- !private ["Ps16MutableIndexable", "_Element"]
+- !private ["Ps16MutableIndexable", "append"]
+- !private ["Ps16MutableSliceable", "Generator"]
+- !private ["Ps16MutableSliceable", "Index"]
+- !private ["Ps16MutableSliceable", "SubSequence"]
+- !private ["Ps16MutableSliceable", "_Element"]
+- !private ["Ps16MutableSliceable", "append"]
+- !private ["PSo8NSCoding", "Generator"]
+- !private ["PSo8NSCoding", "Key"]
+- !private ["PSo8NSCoding", "Value"]
+- !private ["PSo8NSCoding", "absoluteString"]
+- !private ["PSo8NSCoding", "allObjects"]
+- !private ["PSo8NSCoding", "deleteObject"]
+- !private ["PSo8NSCoding", "entityForName"]
+- !private ["PSo8NSCoding", "forEach"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "save"]
+- !private ["PSo8NSCoding", "setByAddingObject"]
+- !private ["PSo8NSCoding", "subscript"]
+- !private ["PSo8NSCoding", "timeIntervalSince1970"]
+- !private ["PSo9NSCopying", "Generator"]
+- !private ["PSo9NSCopying", "Key"]
+- !private ["PSo9NSCopying", "Value"]
+- !private ["PSo9NSCopying", "absoluteString"]
+- !private ["PSo9NSCopying", "allObjects"]
+- !private ["PSo9NSCopying", "contentType"]
+- !private ["PSo9NSCopying", "deinit"]
+- !private ["PSo9NSCopying", "downloadURL"]
+- !private ["PSo9NSCopying", "entityForName"]
+- !private ["PSo9NSCopying", "forEach"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "setByAddingObject"]
+- !private ["PSo9NSCopying", "subscript"]
+- !private ["PSo9NSCopying", "timeIntervalSince1970"]
+- !private ["CSo6NSDate", "init"]
+- !private ["CSo6NSDate", "timeIntervalSince1970"]
+- !private ["CSo12NSDictionary", "Key"]
+- !private ["CSo12NSDictionary", "Value"]
+- !private ["CSo12NSDictionary", "subscript"]
+- !private ["CSo19NSEntityDescription", "entityForName"]
+- !private ["PSo17NSFastEnumeration", "Generator"]
+- !private ["PSo17NSFastEnumeration", "Key"]
+- !private ["PSo17NSFastEnumeration", "Value"]
+- !private ["PSo17NSFastEnumeration", "allObjects"]
+- !private ["PSo17NSFastEnumeration", "entityForName"]
+- !private ["PSo17NSFastEnumeration", "forEach"]
+- !private ["PSo17NSFastEnumeration", "setByAddingObject"]
+- !private ["PSo17NSFastEnumeration", "subscript"]
+- !private ["C10Foundation15NSFastGenerator", "Element"]
+- !private ["PSo9NSLocking", "deleteObject"]
+- !private ["PSo9NSLocking", "save"]
+- !private ["CSo15NSManagedObject", "AnyObject"]
+- ["CSo15NSManagedObject", "AppConfig"]
+- !private ["CSo15NSManagedObject", "AppDelegate"]
+- ["CSo15NSManagedObject", "Bool"]
+- !private ["CSo15NSManagedObject", "CoreDataStackManager"]
+- ["CSo15NSManagedObject", "Double"]
+- ["CSo15NSManagedObject", "FIRDatabase"]
+- ["CSo15NSManagedObject", "FIRStorage"]
+- !private ["CSo15NSManagedObject", "FIRStorageMetadata"]
+- !private ["CSo15NSManagedObject", "ImageCache"]
+- ["CSo15NSManagedObject", "LookTag"]
+- !private ["CSo15NSManagedObject", "NSDate"]
+- ["CSo15NSManagedObject", "NSDictionary"]
+- ["CSo15NSManagedObject", "NSEntityDescription"]
+- !private ["CSo15NSManagedObject", "NSManagedObject"]
+- ["CSo15NSManagedObject", "NSManagedObjectContext"]
+- !private ["CSo15NSManagedObject", "NSNumber"]
+- !private ["CSo15NSManagedObject", "NSObject"]
+- ["CSo15NSManagedObject", "String"]
+- !private ["CSo15NSManagedObject", "UIApplication"]
+- ["CSo15NSManagedObject", "UIImage"]
+- ["CSo15NSManagedObject", "addLookTag"]
+- ["CSo15NSManagedObject", "addTag"]
+- !private ["CSo15NSManagedObject", "creationDate"]
+- ["CSo15NSManagedObject", "database"]
+- !private ["CSo15NSManagedObject", "dayOfWeek"]
+- !private ["CSo15NSManagedObject", "deinit"]
+- ["CSo15NSManagedObject", "deleteLook"]
+- ["CSo15NSManagedObject", "deleteLookRemote"]
+- ["CSo15NSManagedObject", "deleteTag"]
+- !private ["CSo15NSManagedObject", "dispatch_async"]
+- !private ["CSo15NSManagedObject", "dispatch_get_main_queue"]
+- !private ["CSo15NSManagedObject", "id"]
+- ["CSo15NSManagedObject", "init"]
+- !private ["CSo15NSManagedObject", "key"]
+- !private ["CSo15NSManagedObject", "lastUpdate"]
+- !private ["CSo15NSManagedObject", "look"]
+- !private ["CSo15NSManagedObject", "managedObjectContext"]
+- !private ["CSo15NSManagedObject", "print"]
+- ["CSo15NSManagedObject", "saveImage"]
+- ["CSo15NSManagedObject", "saveLocalImage"]
+- ["CSo15NSManagedObject", "storage"]
+- !private ["CSo15NSManagedObject", "tags"]
+- !private ["CSo15NSManagedObject", "text"]
+- !private ["CSo15NSManagedObject", "thumbUrl"]
+- !private ["CSo15NSManagedObject", "uid"]
+- !private ["CSo15NSManagedObject", "url"]
+- !private ["CSo15NSManagedObject", "user"]
+- ["CSo15NSManagedObject", ""]
+- !private ["CSo22NSManagedObjectContext", "deleteObject"]
+- !private ["CSo22NSManagedObjectContext", "save"]
+- !private ["PSo16NSMutableCopying", "Generator"]
+- !private ["PSo16NSMutableCopying", "Key"]
+- !private ["PSo16NSMutableCopying", "Value"]
+- !private ["PSo16NSMutableCopying", "allObjects"]
+- !private ["PSo16NSMutableCopying", "forEach"]
+- !private ["PSo16NSMutableCopying", "setByAddingObject"]
+- !private ["PSo16NSMutableCopying", "subscript"]
+- !private ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "AppConfig"]
+- !private ["CSo8NSObject", "AppDelegate"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "Constants"]
+- !private ["CSo8NSObject", "CoreDataStackManager"]
+- ["CSo8NSObject", "Double"]
+- ["CSo8NSObject", "FIRDatabase"]
+- ["CSo8NSObject", "FIRStorage"]
+- !private ["CSo8NSObject", "FIRStorageMetadata"]
+- !private ["CSo8NSObject", "Generator"]
+- !private ["CSo8NSObject", "ImageCache"]
+- !private ["CSo8NSObject", "JSONKeys"]
+- !private ["CSo8NSObject", "Key"]
+- ["CSo8NSObject", "LookTag"]
+- !private ["CSo8NSObject", "NSDate"]
+- ["CSo8NSObject", "NSDictionary"]
+- ["CSo8NSObject", "NSEntityDescription"]
+- !private ["CSo8NSObject", "NSManagedObject"]
+- ["CSo8NSObject", "NSManagedObjectContext"]
+- !private ["CSo8NSObject", "NSNumber"]
+- !private ["CSo8NSObject", "NSObject"]
+- ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "UIApplication"]
+- ["CSo8NSObject", "UIImage"]
+- !private ["CSo8NSObject", "Value"]
+- !private ["CSo8NSObject", "absoluteString"]
+- ["CSo8NSObject", "addLookTag"]
+- ["CSo8NSObject", "addTag"]
+- !private ["CSo8NSObject", "allObjects"]
+- !private ["CSo8NSObject", "child"]
+- !private ["CSo8NSObject", "childByAutoId"]
+- !private ["CSo8NSObject", "contentType"]
+- !private ["CSo8NSObject", "creationDate"]
+- ["CSo8NSObject", "database"]
+- !private ["CSo8NSObject", "dayOfWeek"]
+- !private ["CSo8NSObject", "deinit"]
+- !private ["CSo8NSObject", "delegate"]
+- ["CSo8NSObject", "deleteLook"]
+- ["CSo8NSObject", "deleteLookRemote"]
+- !private ["CSo8NSObject", "deleteObject"]
+- ["CSo8NSObject", "deleteTag"]
+- !private ["CSo8NSObject", "dispatch_async"]
+- !private ["CSo8NSObject", "dispatch_get_main_queue"]
+- !private ["CSo8NSObject", "downloadURL"]
+- !private ["CSo8NSObject", "entityForName"]
+- !private ["CSo8NSObject", "forEach"]
+- !private ["CSo8NSObject", "id"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "key"]
+- !private ["CSo8NSObject", "lastUpdate"]
+- !private ["CSo8NSObject", "loggedUser"]
+- !private ["CSo8NSObject", "look"]
+- !private ["CSo8NSObject", "managedObjectContext"]
+- !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "putData"]
+- ["CSo8NSObject", "reference"]
+- ["CSo8NSObject", "referenceForURL"]
+- !private ["CSo8NSObject", "removeValue"]
+- !private ["CSo8NSObject", "save"]
+- ["CSo8NSObject", "saveImage"]
+- ["CSo8NSObject", "saveLocalImage"]
+- !private ["CSo8NSObject", "setByAddingObject"]
+- !private ["CSo8NSObject", "setValue"]
+- !private ["CSo8NSObject", "sharedApplication"]
+- ["CSo8NSObject", "storage"]
+- !private ["CSo8NSObject", "subscript"]
+- !private ["CSo8NSObject", "tags"]
+- !private ["CSo8NSObject", "text"]
+- !private ["CSo8NSObject", "thumbUrl"]
+- !private ["CSo8NSObject", "timeIntervalSince1970"]
+- !private ["CSo8NSObject", "uid"]
+- !private ["CSo8NSObject", "updateChildValues"]
+- !private ["CSo8NSObject", "url"]
+- !private ["CSo8NSObject", "user"]
+- ["PSo16NSObjectProtocol", "AppConfig"]
+- ["PSo16NSObjectProtocol", "Constants"]
+- !private ["PSo16NSObjectProtocol", "CoreDataStackManager"]
+- !private ["PSo16NSObjectProtocol", "Double"]
+- ["PSo16NSObjectProtocol", "FIRDatabase"]
+- ["PSo16NSObjectProtocol", "FIRStorage"]
+- !private ["PSo16NSObjectProtocol", "FIRStorageMetadata"]
+- !private ["PSo16NSObjectProtocol", "Generator"]
+- !private ["PSo16NSObjectProtocol", "ImageCache"]
+- !private ["PSo16NSObjectProtocol", "JSONKeys"]
+- !private ["PSo16NSObjectProtocol", "Key"]
+- !private ["PSo16NSObjectProtocol", "LookTag"]
+- !private ["PSo16NSObjectProtocol", "NSDate"]
+- !private ["PSo16NSObjectProtocol", "NSEntityDescription"]
+- !private ["PSo16NSObjectProtocol", "String"]
+- !private ["PSo16NSObjectProtocol", "UIApplication"]
+- !private ["PSo16NSObjectProtocol", "Value"]
+- !private ["PSo16NSObjectProtocol", "absoluteString"]
+- ["PSo16NSObjectProtocol", "addLookTag"]
+- ["PSo16NSObjectProtocol", "addTag"]
+- !private ["PSo16NSObjectProtocol", "allObjects"]
+- !private ["PSo16NSObjectProtocol", "child"]
+- !private ["PSo16NSObjectProtocol", "childByAutoId"]
+- !private ["PSo16NSObjectProtocol", "contentType"]
+- !private ["PSo16NSObjectProtocol", "creationDate"]
+- ["PSo16NSObjectProtocol", "database"]
+- !private ["PSo16NSObjectProtocol", "dayOfWeek"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
+- ["PSo16NSObjectProtocol", "deleteLook"]
+- ["PSo16NSObjectProtocol", "deleteLookRemote"]
+- !private ["PSo16NSObjectProtocol", "deleteObject"]
+- ["PSo16NSObjectProtocol", "deleteTag"]
+- !private ["PSo16NSObjectProtocol", "dispatch_async"]
+- !private ["PSo16NSObjectProtocol", "dispatch_get_main_queue"]
+- !private ["PSo16NSObjectProtocol", "downloadURL"]
+- !private ["PSo16NSObjectProtocol", "entityForName"]
+- !private ["PSo16NSObjectProtocol", "forEach"]
+- !private ["PSo16NSObjectProtocol", "id"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "key"]
+- !private ["PSo16NSObjectProtocol", "lastUpdate"]
+- !private ["PSo16NSObjectProtocol", "loggedUser"]
+- !private ["PSo16NSObjectProtocol", "look"]
+- !private ["PSo16NSObjectProtocol", "managedObjectContext"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "putData"]
+- ["PSo16NSObjectProtocol", "reference"]
+- ["PSo16NSObjectProtocol", "referenceForURL"]
+- !private ["PSo16NSObjectProtocol", "removeValue"]
+- !private ["PSo16NSObjectProtocol", "save"]
+- ["PSo16NSObjectProtocol", "saveImage"]
+- ["PSo16NSObjectProtocol", "saveLocalImage"]
+- !private ["PSo16NSObjectProtocol", "setByAddingObject"]
+- !private ["PSo16NSObjectProtocol", "setValue"]
+- !private ["PSo16NSObjectProtocol", "sharedApplication"]
+- ["PSo16NSObjectProtocol", "storage"]
+- !private ["PSo16NSObjectProtocol", "subscript"]
+- !private ["PSo16NSObjectProtocol", "tags"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- !private ["PSo16NSObjectProtocol", "thumbUrl"]
+- !private ["PSo16NSObjectProtocol", "timeIntervalSince1970"]
+- !private ["PSo16NSObjectProtocol", "uid"]
+- !private ["PSo16NSObjectProtocol", "updateChildValues"]
+- !private ["PSo16NSObjectProtocol", "url"]
+- !private ["PSo16NSObjectProtocol", "user"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "Generator"]
+- !private ["PSo14NSSecureCoding", "Key"]
+- !private ["PSo14NSSecureCoding", "Value"]
+- !private ["PSo14NSSecureCoding", "absoluteString"]
+- !private ["PSo14NSSecureCoding", "allObjects"]
+- !private ["PSo14NSSecureCoding", "forEach"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "setByAddingObject"]
+- !private ["PSo14NSSecureCoding", "subscript"]
+- !private ["PSo14NSSecureCoding", "timeIntervalSince1970"]
+- !private ["CSo5NSSet", "Generator"]
+- !private ["CSo5NSSet", "allObjects"]
+- !private ["CSo5NSSet", "forEach"]
+- !private ["CSo5NSSet", "setByAddingObject"]
+- !private ["CSo5NSURL", "absoluteString"]
+- !private ["Sq", "deinit"]
+- !private ["Ps16OutputStreamType", "init"]
+- !private ["Ps21RandomAccessIndexType", "Distance"]
+- !private ["Ps21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["Ps30RangeReplaceableCollectionType", "Generator"]
+- !private ["Ps30RangeReplaceableCollectionType", "Index"]
+- !private ["Ps30RangeReplaceableCollectionType", "SubSequence"]
+- !private ["Ps30RangeReplaceableCollectionType", "_Element"]
+- !private ["Ps30RangeReplaceableCollectionType", "append"]
+- !private ["Ps12SequenceType", "Element"]
+- !private ["Ps12SequenceType", "Generator"]
+- !private ["Ps12SequenceType", "Index"]
+- !private ["Ps12SequenceType", "Key"]
+- !private ["Ps12SequenceType", "SubSequence"]
+- !private ["Ps12SequenceType", "Value"]
+- !private ["Ps12SequenceType", "_Element"]
+- !private ["Ps12SequenceType", "allObjects"]
+- !private ["Ps12SequenceType", "append"]
+- !private ["Ps12SequenceType", "forEach"]
+- !private ["Ps12SequenceType", "setByAddingObject"]
+- !private ["Ps12SequenceType", "subscript"]
+- !private ["Ps17SignedIntegerType", "Distance"]
+- !private ["Ps17SignedIntegerType", "IntegerLiteralType"]
+- !private ["Ps16SignedNumberType", "Distance"]
+- !private ["Ps16SignedNumberType", "IntegerLiteralType"]
+- !private ["Ps16SignedNumberType", "init"]
+- !private ["VC11Unique_Look10ImageCache6Static", "instance"]
+- !private ["Ps10Streamable", "init"]
+- !private ["Ps10Strideable", "Distance"]
+- !private ["Ps10Strideable", "IntegerLiteralType"]
+- !private ["Ps10Strideable", "init"]
+- !private ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps30StringInterpolationConvertible", "init"]
+- !private ["Ps24StringLiteralConvertible", "init"]
+- !private ["CSo13UIApplication", "delegate"]
+- !private ["CSo13UIApplication", "sharedApplication"]
+- !private ["PSo21UIApplicationDelegate", "loggedUser"]
+- !private ["CSo11UIResponder", "delegate"]
+- !private ["CSo11UIResponder", "loggedUser"]
+- !private ["CSo11UIResponder", "sharedApplication"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "init"]
+- !private ["C11Unique_Look4User", "lastUpdate"]
+- !private ["C11Unique_Look4User", "uid"]
+- !private ["Ps10_ArrayType", "Generator"]
+- !private ["Ps10_ArrayType", "Index"]
+- !private ["Ps10_ArrayType", "SubSequence"]
+- !private ["Ps10_ArrayType", "_Element"]
+- !private ["Ps10_ArrayType", "append"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Ps31_BuiltinFloatLiteralConvertible", "init"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "init"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "init"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps19_CVarArgAlignedType", "init"]
+- !private ["Ps22_CVarArgPassedAsDouble", "init"]
+- !private ["Ps24_DestructorSafeContainer", "Generator"]
+- !private ["Ps24_DestructorSafeContainer", "Index"]
+- !private ["Ps24_DestructorSafeContainer", "SubSequence"]
+- !private ["Ps24_DestructorSafeContainer", "_Element"]
+- !private ["Ps24_DestructorSafeContainer", "append"]
+- !private ["Ps32_FileReferenceLiteralConvertible", "absoluteString"]
+- !private ["Ps14_Incrementable", "Distance"]
+- !private ["Ps14_Incrementable", "IntegerLiteralType"]
+- !private ["Ps22_IntegerArithmeticType", "Distance"]
+- !private ["Ps22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps12_IntegerType", "Distance"]
+- !private ["Ps12_IntegerType", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "Distance"]
+- !private ["Ps21_ObjectiveCBridgeable", "Generator"]
+- !private ["Ps21_ObjectiveCBridgeable", "Index"]
+- !private ["Ps21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "Key"]
+- !private ["Ps21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["Ps21_ObjectiveCBridgeable", "Value"]
+- !private ["Ps21_ObjectiveCBridgeable", "_Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "append"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps22_RandomAccessAmbiguity", "Distance"]
+- !private ["Ps22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["Ps12_Reflectable", "Distance"]
+- !private ["Ps12_Reflectable", "Generator"]
+- !private ["Ps12_Reflectable", "Index"]
+- !private ["Ps12_Reflectable", "IntegerLiteralType"]
+- !private ["Ps12_Reflectable", "Key"]
+- !private ["Ps12_Reflectable", "SubSequence"]
+- !private ["Ps12_Reflectable", "Value"]
+- !private ["Ps12_Reflectable", "_Element"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "absoluteString"]
+- !private ["Ps12_Reflectable", "allObjects"]
+- !private ["Ps12_Reflectable", "append"]
+- !private ["Ps12_Reflectable", "forEach"]
+- !private ["Ps12_Reflectable", "init"]
+- !private ["Ps12_Reflectable", "setByAddingObject"]
+- !private ["Ps12_Reflectable", "subscript"]
+- !private ["Ps12_Reflectable", "timeIntervalSince1970"]
+- !private ["Ps18_SignedIntegerType", "Distance"]
+- !private ["Ps18_SignedIntegerType", "IntegerLiteralType"]
+depends-nominal:
+- !private "Ps16AbsoluteValuable"
+- "Ps9AnyObject"
+- "C11Unique_Look9AppConfig"
+- !private "C11Unique_Look11AppDelegate"
+- !private "Sa"
+- !private "Ps23ArrayLiteralConvertible"
+- !private "Vs10ArraySlice"
+- !private "Ps22BidirectionalIndexType"
+- !private "Ps21BitwiseOperationsType"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- "Ps11CVarArgType"
+- !private "Ps14CollectionType"
+- !private "Ps10Comparable"
+- "VC11Unique_Look9AppConfig9Constants"
+- !private "C11Unique_Look20CoreDataStackManager"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- !private "Vs10Dictionary"
+- !private "Ps28DictionaryLiteralConvertible"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "Ps41ExtendedGraphemeClusterLiteralConvertible"
+- "CSo11FIRDatabase"
+- !private "CSo16FIRDatabaseQuery"
+- !private "CSo20FIRDatabaseReference"
+- "CSo10FIRStorage"
+- !private "CSo18FIRStorageMetadata"
+- !private "CSo19FIRStorageReference"
+- !private "Ps23FloatLiteralConvertible"
+- !private "Ps17FloatingPointType"
+- !private "Ps16ForwardIndexType"
+- !private "Ps13GeneratorType"
+- "Ps8Hashable"
+- !private "C11Unique_Look10ImageCache"
+- !private "SQ"
+- !private "Ps9Indexable"
+- !private "Vs17IndexingGenerator"
+- !private "Si"
+- !private "Ps21IntegerArithmeticType"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "Ps11IntegerType"
+- !private "VC11Unique_Look9AppConfig8JSONKeys"
+- "C11Unique_Look4Look"
+- !private "C11Unique_Look7LookTag"
+- !private "Ps14MirrorPathType"
+- !private "Ps21MutableCollectionType"
+- !private "Ps16MutableIndexable"
+- !private "Ps16MutableSliceable"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo6NSDate"
+- !private "CSo12NSDictionary"
+- !private "CSo19NSEntityDescription"
+- !private "PSo17NSFastEnumeration"
+- !private "C10Foundation15NSFastGenerator"
+- !private "PSo9NSLocking"
+- "CSo15NSManagedObject"
+- !private "CSo22NSManagedObjectContext"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo5NSSet"
+- !private "CSo5NSURL"
+- !private "Sq"
+- !private "Ps16OutputStreamType"
+- !private "Ps21RandomAccessIndexType"
+- !private "Ps30RangeReplaceableCollectionType"
+- !private "Ps12SequenceType"
+- !private "Ps17SignedIntegerType"
+- !private "Ps16SignedNumberType"
+- !private "VC11Unique_Look10ImageCache6Static"
+- !private "Ps10Streamable"
+- !private "Ps10Strideable"
+- !private "SS"
+- !private "Ps30StringInterpolationConvertible"
+- !private "Ps24StringLiteralConvertible"
+- !private "CSo13UIApplication"
+- !private "PSo21UIApplicationDelegate"
+- !private "CSo11UIResponder"
+- !private "Ps31UnicodeScalarLiteralConvertible"
+- !private "C11Unique_Look4User"
+- !private "Ps10_ArrayType"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps31_BuiltinFloatLiteralConvertible"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps32_BuiltinStringLiteralConvertible"
+- !private "Ps37_BuiltinUTF16StringLiteralConvertible"
+- !private "Ps39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "Ps19_CVarArgAlignedType"
+- !private "Ps22_CVarArgPassedAsDouble"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps32_FileReferenceLiteralConvertible"
+- !private "Ps14_Incrementable"
+- !private "Ps22_IntegerArithmeticType"
+- !private "Ps12_IntegerType"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps22_RandomAccessAmbiguity"
+- !private "Ps12_Reflectable"
+- !private "Ps18_SignedIntegerType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Firebase/Headers/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRUserInfo.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRUser.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRAuthCredential.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRAuthErrors.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRAuth.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRTwitterAuthProvider.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRGoogleAuthProvider.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRGitHubAuthProvider.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRFacebookAuthProvider.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIREmailPasswordAuthProvider.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseStorage/FirebaseStorage/FIRStorageTaskSnapshot.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseStorage/FirebaseStorage/FIRStorageUploadTask.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseStorage/FirebaseStorage/FIRStorageReference.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseStorage/FirebaseStorage/FIRStorageMetadata.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseStorage/FirebaseStorage/FIRStorageTask.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseStorage/FirebaseStorage/FIRStorageObservableTask.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseStorage/FirebaseStorage/FIRStorageDownloadTask.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseStorage/FirebaseStorage/FIRStorageConstants.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseStorage/FirebaseStorage/FIRStorage.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseStorage/FirebaseStorage/FirebaseStorage.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseInstanceID/FirebaseInstanceID/FIRInstanceID.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseInstanceID/FirebaseInstanceID/FirebaseInstanceID.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRServerValue.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRTransactionResult.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRMutableData.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRDataSnapshot.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRDataEventType.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRDatabaseQuery.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRDatabaseReference.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRDatabase.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FirebaseDatabase.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FirebaseAuth.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIROptions.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIRConfiguration.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIRApp.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIRAnalyticsConfiguration.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIRUserPropertyNames.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIRParameterNames.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIREventNames.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIRAnalytics.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIRAnalytics+AppDelegate.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FirebaseAnalytics.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Firebase/Headers/Firebase.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/Bolts.framework/Headers/Bolts.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFTask.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFURL_Internal.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFURL.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFMeasurementEvent_Internal.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFAppLinkReturnToRefererView_Internal.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFAppLink_Internal.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/Bolts.framework/Headers/Bolts-umbrella.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/Bolts.framework/Modules/module.modulemap"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-umbrella.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/FBSDKLoginKit.framework/Modules/module.modulemap"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/TagListView.framework/Headers/TagListView-Swift.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/TagListView.framework/Headers/TagListView-umbrella.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/TagListView.framework/Modules/module.modulemap"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/Toucan.framework/Headers/Toucan-Swift.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/Toucan.framework/Headers/Toucan-umbrella.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Products/Debug-iphoneos/Toucan.framework/Modules/module.modulemap"
+interface-hash: "badb2e5cd3d775d14f414ed037660c10"

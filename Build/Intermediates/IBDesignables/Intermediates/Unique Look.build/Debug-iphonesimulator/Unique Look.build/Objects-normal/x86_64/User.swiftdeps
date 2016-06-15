@@ -1,0 +1,325 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "User"
+provides-nominal:
+- "C11Unique_Look4User"
+provides-member:
+- ["C11Unique_Look4User", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "NSEntityDescription"
+- !private "Double"
+- "AnyObject"
+- "String"
+- "NSManagedObjectContext"
+- "User"
+- !private "StringLiteralType"
+- "NSManagedObject"
+depends-member:
+- !private ["Ps9AnyObject", "NSEntityDescription"]
+- !private ["Ps9AnyObject", "creationDate"]
+- !private ["Ps9AnyObject", "displayName"]
+- !private ["Ps9AnyObject", "email"]
+- !private ["Ps9AnyObject", "entityForName"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "lastLogin"]
+- !private ["Ps9AnyObject", "lastUpdate"]
+- !private ["Ps9AnyObject", "provider"]
+- !private ["Ps9AnyObject", "uid"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps11CVarArgType", "NSEntityDescription"]
+- !private ["Ps11CVarArgType", "creationDate"]
+- !private ["Ps11CVarArgType", "displayName"]
+- !private ["Ps11CVarArgType", "email"]
+- !private ["Ps11CVarArgType", "entityForName"]
+- ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "lastLogin"]
+- !private ["Ps11CVarArgType", "lastUpdate"]
+- !private ["Ps11CVarArgType", "provider"]
+- !private ["Ps11CVarArgType", "uid"]
+- ["Ps11CVarArgType", ""]
+- !private ["Ps14CollectionType", "Generator"]
+- !private ["Ps14CollectionType", "Index"]
+- !private ["Ps14CollectionType", "SubSequence"]
+- !private ["Ps14CollectionType", "_Element"]
+- !private ["Ps14CollectionType", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "Index"]
+- !private ["Ps28CustomDebugStringConvertible", "NSEntityDescription"]
+- !private ["Ps28CustomDebugStringConvertible", "creationDate"]
+- !private ["Ps28CustomDebugStringConvertible", "displayName"]
+- !private ["Ps28CustomDebugStringConvertible", "email"]
+- !private ["Ps28CustomDebugStringConvertible", "entityForName"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "lastLogin"]
+- !private ["Ps28CustomDebugStringConvertible", "lastUpdate"]
+- !private ["Ps28CustomDebugStringConvertible", "provider"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "uid"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "Index"]
+- !private ["Ps23CustomStringConvertible", "NSEntityDescription"]
+- !private ["Ps23CustomStringConvertible", "creationDate"]
+- !private ["Ps23CustomStringConvertible", "displayName"]
+- !private ["Ps23CustomStringConvertible", "email"]
+- !private ["Ps23CustomStringConvertible", "entityForName"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "lastLogin"]
+- !private ["Ps23CustomStringConvertible", "lastUpdate"]
+- !private ["Ps23CustomStringConvertible", "provider"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "uid"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Vs10Dictionary", "Index"]
+- !private ["Vs10Dictionary", "deinit"]
+- !private ["Vs10Dictionary", "subscript"]
+- !private ["Ps28DictionaryLiteralConvertible", "Index"]
+- !private ["Ps28DictionaryLiteralConvertible", "subscript"]
+- !private ["Ps9Equatable", "NSEntityDescription"]
+- !private ["Ps9Equatable", "creationDate"]
+- !private ["Ps9Equatable", "displayName"]
+- !private ["Ps9Equatable", "email"]
+- !private ["Ps9Equatable", "entityForName"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "lastLogin"]
+- !private ["Ps9Equatable", "lastUpdate"]
+- !private ["Ps9Equatable", "provider"]
+- !private ["Ps9Equatable", "uid"]
+- ["Ps9Equatable", ""]
+- !private ["Ps13GeneratorType", "Element"]
+- !private ["Ps8Hashable", "NSEntityDescription"]
+- !private ["Ps8Hashable", "creationDate"]
+- !private ["Ps8Hashable", "displayName"]
+- !private ["Ps8Hashable", "email"]
+- !private ["Ps8Hashable", "entityForName"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "lastLogin"]
+- !private ["Ps8Hashable", "lastUpdate"]
+- !private ["Ps8Hashable", "provider"]
+- !private ["Ps8Hashable", "uid"]
+- ["Ps8Hashable", ""]
+- !private ["Ps9Indexable", "Generator"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "subscript"]
+- !private ["Vs17IndexingGenerator", "Element"]
+- !private ["PSo8NSCoding", "entityForName"]
+- !private ["PSo9NSCopying", "entityForName"]
+- !private ["CSo19NSEntityDescription", "entityForName"]
+- !private ["PSo17NSFastEnumeration", "entityForName"]
+- ["CSo15NSManagedObject", "AnyObject"]
+- !private ["CSo15NSManagedObject", "Double"]
+- ["CSo15NSManagedObject", "NSEntityDescription"]
+- ["CSo15NSManagedObject", "NSManagedObjectContext"]
+- ["CSo15NSManagedObject", "String"]
+- !private ["CSo15NSManagedObject", "creationDate"]
+- !private ["CSo15NSManagedObject", "displayName"]
+- !private ["CSo15NSManagedObject", "email"]
+- ["CSo15NSManagedObject", "init"]
+- !private ["CSo15NSManagedObject", "lastLogin"]
+- !private ["CSo15NSManagedObject", "lastUpdate"]
+- !private ["CSo15NSManagedObject", "provider"]
+- !private ["CSo15NSManagedObject", "uid"]
+- ["CSo15NSManagedObject", ""]
+- ["CSo8NSObject", "AnyObject"]
+- !private ["CSo8NSObject", "Double"]
+- ["CSo8NSObject", "NSEntityDescription"]
+- ["CSo8NSObject", "NSManagedObjectContext"]
+- ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "creationDate"]
+- !private ["CSo8NSObject", "displayName"]
+- !private ["CSo8NSObject", "email"]
+- !private ["CSo8NSObject", "entityForName"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "lastLogin"]
+- !private ["CSo8NSObject", "lastUpdate"]
+- !private ["CSo8NSObject", "provider"]
+- !private ["CSo8NSObject", "uid"]
+- !private ["PSo16NSObjectProtocol", "NSEntityDescription"]
+- !private ["PSo16NSObjectProtocol", "creationDate"]
+- !private ["PSo16NSObjectProtocol", "displayName"]
+- !private ["PSo16NSObjectProtocol", "email"]
+- !private ["PSo16NSObjectProtocol", "entityForName"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "lastLogin"]
+- !private ["PSo16NSObjectProtocol", "lastUpdate"]
+- !private ["PSo16NSObjectProtocol", "provider"]
+- !private ["PSo16NSObjectProtocol", "uid"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["Sq", "deinit"]
+- !private ["Ps12SequenceType", "Element"]
+- !private ["Ps12SequenceType", "Generator"]
+- !private ["Ps12SequenceType", "Index"]
+- !private ["Ps12SequenceType", "SubSequence"]
+- !private ["Ps12SequenceType", "_Element"]
+- !private ["Ps12SequenceType", "subscript"]
+- !private ["Vs5Slice", "Generator"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
+- ["C11Unique_Look4User", "AnyObject"]
+- !private ["C11Unique_Look4User", "Double"]
+- ["C11Unique_Look4User", "NSEntityDescription"]
+- ["C11Unique_Look4User", "NSManagedObjectContext"]
+- ["C11Unique_Look4User", "String"]
+- !private ["C11Unique_Look4User", "creationDate"]
+- ["C11Unique_Look4User", "deinit"]
+- !private ["C11Unique_Look4User", "displayName"]
+- !private ["C11Unique_Look4User", "email"]
+- ["C11Unique_Look4User", "init"]
+- !private ["C11Unique_Look4User", "lastLogin"]
+- !private ["C11Unique_Look4User", "lastUpdate"]
+- !private ["C11Unique_Look4User", "provider"]
+- !private ["C11Unique_Look4User", "uid"]
+- !private ["Ps21_ObjectiveCBridgeable", "Index"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps12_Reflectable", "Index"]
+- !private ["Ps12_Reflectable", "subscript"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps11CVarArgType"
+- !private "Ps14CollectionType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- !private "Vs10Dictionary"
+- !private "Ps28DictionaryLiteralConvertible"
+- "Ps9Equatable"
+- !private "Ps13GeneratorType"
+- "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Vs17IndexingGenerator"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo19NSEntityDescription"
+- !private "PSo17NSFastEnumeration"
+- "CSo15NSManagedObject"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "Sq"
+- !private "Ps12SequenceType"
+- !private "Vs5Slice"
+- "C11Unique_Look4User"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Firebase/Headers/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRUserInfo.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRUser.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRAuthCredential.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRAuthErrors.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRAuth.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRTwitterAuthProvider.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRGoogleAuthProvider.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRGitHubAuthProvider.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIRFacebookAuthProvider.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FIREmailPasswordAuthProvider.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseStorage/FirebaseStorage/FIRStorageTaskSnapshot.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseStorage/FirebaseStorage/FIRStorageUploadTask.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseStorage/FirebaseStorage/FIRStorageReference.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseStorage/FirebaseStorage/FIRStorageMetadata.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseStorage/FirebaseStorage/FIRStorageTask.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseStorage/FirebaseStorage/FIRStorageObservableTask.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseStorage/FirebaseStorage/FIRStorageDownloadTask.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseStorage/FirebaseStorage/FIRStorageConstants.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseStorage/FirebaseStorage/FIRStorage.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseStorage/FirebaseStorage/FirebaseStorage.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseInstanceID/FirebaseInstanceID/FIRInstanceID.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseInstanceID/FirebaseInstanceID/FirebaseInstanceID.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRServerValue.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRTransactionResult.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRMutableData.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRDataSnapshot.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRDataEventType.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRDatabaseQuery.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRDatabaseReference.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FIRDatabase.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase/FirebaseDatabase.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseAuth/FirebaseAuth/FirebaseAuth.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIROptions.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIRConfiguration.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIRApp.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIRAnalyticsConfiguration.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIRUserPropertyNames.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIRParameterNames.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIREventNames.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIRAnalytics.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FIRAnalytics+AppDelegate.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Headers/Public/FirebaseAnalytics/FirebaseAnalytics/FirebaseAnalytics.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Firebase/Headers/Firebase.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts.framework/Headers/Bolts.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFTask.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFURL_Internal.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFURL.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFMeasurementEvent_Internal.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkReturnToRefererView_Internal.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLink_Internal.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts.framework/Headers/Bolts-umbrella.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Bolts.framework/Modules/module.modulemap"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-umbrella.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/FBSDKLoginKit.framework/Modules/module.modulemap"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/TagListView.framework/Modules/TagListView.swiftmodule/x86_64.swiftmodule"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/TagListView.framework/Headers/TagListView-Swift.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/TagListView.framework/Headers/TagListView-umbrella.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/TagListView.framework/Modules/module.modulemap"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Toucan.framework/Modules/Toucan.swiftmodule/x86_64.swiftmodule"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Toucan.framework/Headers/Toucan-Swift.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Toucan.framework/Headers/Toucan-umbrella.h"
+- "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Toucan.framework/Modules/module.modulemap"
+interface-hash: "3e8a83629391b0ed268038f0aa18da31"

@@ -1,0 +1,5 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.1 clang-703.0.29)"
+options: "7b9e50a8c56375172eb0f08064c5e3d0"
+build_time: [517457830, 622451000]
+inputs:
+  "/Users/aaugusto/Documents/udacity-workspace/Unique Look/Pods/Toucan/Source/Toucan.swift": [517375593, 0]
