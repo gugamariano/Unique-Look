@@ -11,6 +11,7 @@ pod 'FirebaseUI'
 pod 'FBSDKCoreKit'
 pod 'FBSDKLoginKit'
 pod 'Toucan'
+pod 'TagListView', '~> 1.0'
 
 end
 
