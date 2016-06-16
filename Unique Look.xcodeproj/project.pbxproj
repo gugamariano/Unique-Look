@@ -35,10 +35,6 @@
 		82DCE9DD1CF40D0700E8EB86 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DCE9D71CF40D0700E8EB86 /* User.swift */; };
 		82DCE9E41CF40D7C00E8EB86 /* Look.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DCE9E21CF40D7C00E8EB86 /* Look.swift */; };
 		82DCE9E51CF40D7C00E8EB86 /* LookTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DCE9E31CF40D7C00E8EB86 /* LookTag.swift */; };
-		82EE40B41CF5428900E0D297 /* CloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EE40AF1CF5428900E0D297 /* CloseButton.swift */; };
-		82EE40B51CF5428900E0D297 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 82EE40B01CF5428900E0D297 /* Info.plist */; };
-		82EE40B61CF5428900E0D297 /* TagListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EE40B21CF5428900E0D297 /* TagListView.swift */; };
-		82EE40B71CF5428900E0D297 /* TagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EE40B31CF5428900E0D297 /* TagView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,11 +89,6 @@
 		82DCE9D71CF40D0700E8EB86 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		82DCE9E21CF40D7C00E8EB86 /* Look.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Look.swift; sourceTree = "<group>"; };
 		82DCE9E31CF40D7C00E8EB86 /* LookTag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LookTag.swift; sourceTree = "<group>"; };
-		82EE40AF1CF5428900E0D297 /* CloseButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseButton.swift; sourceTree = "<group>"; };
-		82EE40B01CF5428900E0D297 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		82EE40B11CF5428900E0D297 /* TagListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagListView.h; sourceTree = "<group>"; };
-		82EE40B21CF5428900E0D297 /* TagListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagListView.swift; sourceTree = "<group>"; };
-		82EE40B31CF5428900E0D297 /* TagView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagView.swift; sourceTree = "<group>"; };
 		C0A2E4D5DC81328412FC7314 /* Pods-Unique Look.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Unique Look.release.xcconfig"; path = "Pods/Target Support Files/Pods-Unique Look/Pods-Unique Look.release.xcconfig"; sourceTree = "<group>"; };
 		F62B7965663EC8594119BF87 /* Pods_Unique_Look.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Unique_Look.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -161,7 +152,6 @@
 		8284886A1CF4008E0057FF64 /* Unique Look */ = {
 			isa = PBXGroup;
 			children = (
-				82EE40AE1CF5428900E0D297 /* TagListView */,
 				829745DD1CF52A01001C8834 /* Utils */,
 				829745DC1CF529F9001C8834 /* Model */,
 				829745DB1CF529F4001C8834 /* View */,
@@ -240,18 +230,6 @@
 				82DCE9B71CF403D700E8EB86 /* LookHistoryViewController.swift */,
 			);
 			name = "Not Used";
-			sourceTree = "<group>";
-		};
-		82EE40AE1CF5428900E0D297 /* TagListView */ = {
-			isa = PBXGroup;
-			children = (
-				82EE40AF1CF5428900E0D297 /* CloseButton.swift */,
-				82EE40B01CF5428900E0D297 /* Info.plist */,
-				82EE40B11CF5428900E0D297 /* TagListView.h */,
-				82EE40B21CF5428900E0D297 /* TagListView.swift */,
-				82EE40B31CF5428900E0D297 /* TagView.swift */,
-			);
-			path = TagListView;
 			sourceTree = "<group>";
 		};
 		ED08BD4047C6788D8CD2ABE0 /* Pods */ = {
@@ -375,7 +353,6 @@
 			files = (
 				828488791CF4008E0057FF64 /* LaunchScreen.storyboard in Resources */,
 				828488761CF4008E0057FF64 /* Assets.xcassets in Resources */,
-				82EE40B51CF5428900E0D297 /* Info.plist in Resources */,
 				829745DF1CF52A71001C8834 /* GoogleService-Info.plist in Resources */,
 				82DCE9D11CF4044E00E8EB86 /* Main.storyboard in Resources */,
 			);
@@ -457,8 +434,6 @@
 				82DCE9BE1CF403D700E8EB86 /* CameraViewController.swift in Sources */,
 				829745EF1CF52F5D001C8834 /* LookTag+CoreDataProperties.swift in Sources */,
 				82DCE9DD1CF40D0700E8EB86 /* User.swift in Sources */,
-				82EE40B61CF5428900E0D297 /* TagListView.swift in Sources */,
-				82EE40B71CF5428900E0D297 /* TagView.swift in Sources */,
 				82DCE9C61CF403D700E8EB86 /* LookCollectionHeaderView.swift in Sources */,
 				82DCE9AB1CF4038600E8EB86 /* AppConfig.swift in Sources */,
 				829745EA1CF52E08001C8834 /* User+CoreDataProperties.swift in Sources */,
@@ -471,7 +446,6 @@
 				82DCE9C51CF403D700E8EB86 /* LookCell.swift in Sources */,
 				829745E51CF52B50001C8834 /* uniquelook.xcdatamodeld in Sources */,
 				82DCE9C11CF403D700E8EB86 /* ImageUtils.swift in Sources */,
-				82EE40B41CF5428900E0D297 /* CloseButton.swift in Sources */,
 				82DCE9CD1CF403D700E8EB86 /* LookTagViewController.swift in Sources */,
 				82DCE9BF1CF403D700E8EB86 /* CoreDataStackManager.swift in Sources */,
 			);
